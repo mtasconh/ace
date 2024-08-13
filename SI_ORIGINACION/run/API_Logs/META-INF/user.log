@@ -1,0 +1,18 @@
+
+==============================================
+
+!Thu Apr 25 11:56:29 COT 2024
+
+Processing file API_Logs\com\ibus\apilogs\services\RegisterLog.msgflow.
+Successfully added file API_Logs\com\ibus\apilogs\services\RegisterLog.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 25 11:56:29 COT 2024
+
+Processing file API_Logs\com\ibus\apilogs\services\RegisterLog_Database.esql.
+Dependent ESQL file com/common/utils/procedures/Procedures.esql is added to the BAR file.
+
+Dependent ESQL file api/logs/common/dao/ManageLogsDAO.esql is added to the BAR file.
+
+Successfully added file API_Logs\com\ibus\apilogs\services\RegisterLog_Database.esql to BAR file.

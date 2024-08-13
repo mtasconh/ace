@@ -1,0 +1,23 @@
+
+==============================================
+
+!Thu Apr 25 09:16:51 COT 2024
+
+Processing file LIB_Utils\com\common\utils\dao\ProceduresDB.esql.
+Successfully added file LIB_Utils\com\common\utils\dao\ProceduresDB.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:16:51 COT 2024
+
+Processing file LIB_Utils\com\common\utils\functions\Functions.esql.
+Successfully added file LIB_Utils\com\common\utils\functions\Functions.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:16:51 COT 2024
+
+Processing file LIB_Utils\com\common\utils\procedures\Procedures.esql.
+Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.
+
+Successfully added file LIB_Utils\com\common\utils\procedures\Procedures.esql to BAR file.

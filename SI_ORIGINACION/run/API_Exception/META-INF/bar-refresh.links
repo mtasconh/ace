@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332712290" workspaceResource="/API_Exception/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1559938540000" workspaceResource="/API_Exception/com/ibus/apiexception/services/RegisterException.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file API_Exception\com\ibus\apiexception\services\RegisterException.msgflow.&#xA;Successfully added file API_Exception\com\ibus\apiexception\services\RegisterException.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\ibus\apiexception\services\RegisterException.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1663258040000" workspaceResource="/API_ExceptionJava/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file API_ExceptionJava\.classpath.&#xA;Successfully added file API_ExceptionJava\.classpath to BAR file.&#xA;Elapsed time: 0,02 second(s).&#xA;" severity="0"/>
+      <barEntry name="API_ExceptionJava.jar"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

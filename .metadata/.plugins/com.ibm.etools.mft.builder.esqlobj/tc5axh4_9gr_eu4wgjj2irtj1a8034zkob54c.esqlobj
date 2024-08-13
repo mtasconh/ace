@@ -1,0 +1,5 @@
+CREATE PROCEDURE insertLogTransaction(IN refConfig REFERENCE) BEGIN
+	DECLARE dateRegister TIMESTAMP CAST(refConfig.log.transactionDate AS TIMESTAMP FORMAT 'yyyyMMddHHmmssSS');
+	DECLARE sql CHARACTER 'INSERT INTO LOG_TRANSACTION(FK_ID_SERVICE,ID_TRANSACTION,INIT_DATE,END_DATE,STATE_TRANSACTION,DESC_TRANSACTION) VALUES (?,?,?,?,?,?)';
+	PASSTHRU(sql,refConfig.contextTransaction.idService,refConfig.contextTransaction.IdTransaction,dateRegister,dateRegister,refConfig.contextTransaction.StateTransaction,refConfig.contextTransaction.DescState);
+END;

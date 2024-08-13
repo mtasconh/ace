@@ -1,0 +1,43 @@
+
+==============================================
+
+!Sat Apr 27 12:46:52 COT 2024
+
+Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\RegistraduriaLoginUsuarios.msgflow.
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\RegistraduriaLoginUsuarios.msgflow to BAR file.
+
+==============================================
+
+!Sat Apr 27 12:46:52 COT 2024
+
+Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor.
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.
+
+==============================================
+
+!Sat Apr 27 12:46:52 COT 2024
+
+Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor.
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.
+
+==============================================
+
+!Sat Apr 27 12:46:52 COT 2024
+
+Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\ConsultaFuncionario_REQ.esql.
+Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.
+
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\ConsultaFuncionario_REQ.esql to BAR file.
+
+==============================================
+
+!Sat Apr 27 12:46:52 COT 2024
+
+Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\gen\co\com\registraduria\LoginUsuario_Registraduria.subflow.
+Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\gen\co\com\registraduria\LoginUsuario_Registraduria.subflow to BAR file.

@@ -1,0 +1,25 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE codeError, nameError, descError CHARACTER '';
+		DECLARE refEnv REFERENCE TO Environment;
+		
+		--Poner información de configuración en cabecera de mensaje.
+		SET OutputRoot.MQMD.MsgId 		= CAST(InputRoot.MQMD.MsgId AS BLOB);
+		SET OutputRoot.MQMD.CorrelId 	= CAST(InputRoot.MQMD.CorrelId AS BLOB);
+		SET OutputRoot.MQMD.ReplyToQ 	= TRIM(InputRoot.MQMD.ReplyToQ);
+		SET OutputRoot.MQRFH2 	        = InputRoot.MQRFH2;
+		
+		--Declarar referencia a lista de excepciones técnicas.
+		DECLARE refExceptionList REFERENCE TO InputExceptionList;
+		
+		CALL common.procedures.utils.getDescriptionExceptionList(refExceptionList, codeError, nameError, descError);
+	
+		CREATE FIELD OutputRoot.XMLNSC.excetiponReq;
+		DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.excetiponReq;
+	
+		--Creación del mensaje de error de fachada
+		SET refOut.exception.code		= codeError;
+		SET refOut.exception.desc		= nameError || ' : ' || descError;
+		
+		RETURN TRUE;
+	END;

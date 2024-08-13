@@ -1,0 +1,617 @@
+LIB_GlobalCache>>NODEIIB10>>default>>0>>1693332730538
+2871<<Administration Result<<2023-08-29 13:12:10.683 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/LIB_GlobalCacheproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+LIB_ApiException>>NODEIIB10>>default>>0>>1693332737212
+2871<<Administration Result<<2023-08-29 13:12:17.361 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/LIB_ApiExceptionproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+LIB_ApiLogs>>NODEIIB10>>default>>0>>1693332742365
+2871<<Administration Result<<2023-08-29 13:12:22.511 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/LIB_ApiLogsproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+LIB_Homologations>>NODEIIB10>>default>>0>>1693332749521
+2871<<Administration Result<<2023-08-29 13:12:29.716 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/LIB_Homologationsproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+API_Exception>>NODEIIB10>>default>>0>>1693332768041
+2871<<Administration Result<<2023-08-29 13:12:48.189 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/API_Exceptionproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+API_Email>>NODEIIB10>>default>>0>>1693332773218
+2871<<Administration Result<<2023-08-29 13:12:53.393 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/API_Emailproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+API_Logs>>NODEIIB10>>default>>0>>1693332781055
+2871<<Administration Result<<2023-08-29 13:13:01.223 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/API_Logsproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1693332802589
+2871<<Administration Result<<2023-08-29 13:13:23.462 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1693332803709
+2871<<Administration Result<<2023-08-29 13:13:24.393 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1693332804583
+2871<<Administration Result<<2023-08-29 13:13:24.924 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>NODEIIB10>>default>>0>>1693332805086
+2871<<Administration Result<<2023-08-29 13:13:25.407 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>NODEIIB10>>default>>0>>1693333856825
+2871<<Administration Result<<2023-08-29 13:31:01.415 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1698364354481
+2871<<Administration Result<<2023-10-26 18:52:42.145 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1698364836136
+2871<<Administration Result<<2023-10-26 19:00:38.123 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1698364950902
+2871<<Administration Result<<2023-10-26 19:02:32.234 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1698365770842
+2871<<Administration Result<<2023-10-26 19:16:14.597 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1698365889617
+2871<<Administration Result<<2023-10-26 19:18:13.021 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700184157919
+2871<<Administration Result<<2023-11-16 20:22:44.172 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700184600141
+2871<<Administration Result<<2023-11-16 20:30:05.817 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700184952409
+2871<<Administration Result<<2023-11-16 20:35:57.604 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700184979099
+2871<<Administration Result<<2023-11-16 20:36:23.870 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700185087960
+2871<<Administration Result<<2023-11-16 20:38:10.885 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700185180637
+2871<<Administration Result<<2023-11-16 20:39:45.918 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1700433952991
+2871<<Administration Result<<2023-11-19 17:45:57.071 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700434067972
+2871<<Administration Result<<2023-11-19 17:47:52.914 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1700434091929
+2871<<Administration Result<<2023-11-19 17:48:16.972 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1700434135431
+2871<<Administration Result<<2023-11-19 17:48:59.245 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700434177805
+2871<<Administration Result<<2023-11-19 17:49:41.159 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1700434238294
+2871<<Administration Result<<2023-11-19 17:50:43.423 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_FACADE>>NODEIIB10>>default>>0>>1700605662461
+2871<<Administration Result<<2023-11-21 17:27:44.313 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_FACADEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700605671575
+2871<<Administration Result<<2023-11-21 17:27:54.396 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700607995660
+2871<<Administration Result<<2023-11-21 18:06:38.666 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>NODEIIB10>>default>>0>>1700608017677
+2871<<Administration Result<<2023-11-21 18:06:59.182 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700608024394
+2871<<Administration Result<<2023-11-21 18:07:09.879 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+LIB_Registraduria_WSDL>>NODEIIB10>>default>>0>>1700608670875
+2871<<Administration Result<<2023-11-21 18:17:53.226 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/LIB_Registraduria_WSDLproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1700608697119
+2871<<Administration Result<<2023-11-21 18:18:18.691 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1701131340179
+2871<<Administration Result<<2023-11-27 19:29:09.896 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>NODEIIB10>>default>>0>>1701131350756
+2871<<Administration Result<<2023-11-27 19:29:13.201 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>NODEIIB10>>default>>0>>1701132218461
+2871<<Administration Result<<2023-11-27 19:43:40.741 COT<<AV-32224\Mauricio<<deploy<<C:/workspace/Universidad/Ingenieria Software/IIB/GeneratedBarFiles/REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713914792734
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1713914792734
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713914792734
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1713987981316
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1713987981316
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1713987981316
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1713987986511
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1713987986511
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1713987986511
+LIB_Homologations>>>>SI_ORIGINACION>>WARNING>>1713987996126
+BIP1240E<<La biblioteca compartida 'LIB_Homologations' hace referencia a la biblioteca compartida 'LIB_GlobalCache', que no se ha desplegado en el servidor de integración. <<1713987996126
+BIP1096E<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713987996126
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1713988002640
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1713988002640
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1713988002640
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1713988002640
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1713988009286
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1713988009286
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1713988009286
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1713988016809
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1713988016809
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1713988016809
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1713988026078
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha changed correctamente. <<1713988026078
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1713988026078
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713988033306
+BIP9339W<<Los valores definidos en la(s) política(s) 'SI_ORIGINACION_TO_MQ' del proyecto de política 'POLICY_SI_ORIGINACION' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. <<1713988033306
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713988033306
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_8' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.GENERIC.SRV', 'co.com.registraduria.Facade_Req#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.RESP', 'co.com.registraduria.Facade_Resp#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988046415
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988046415
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_8' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.GENERIC.SRV', 'co.com.registraduria.Facade_Req#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.RESP', 'co.com.registraduria.Facade_Resp#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988101090
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988101090
+API_Email>>>>SI_ORIGINACION>>WARNING>>1713988109406
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.MQINP.EMAIL.SEND.REQ', 'com.ibus.apiemail.services.Send#FCMComposite_1_1' en el flujo de mensajes 'com.ibus.apiemail.services.Send', 'com.ibus.apiemail.services.Send' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988109406
+BIP1096E<<El origen 'API_Emailproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988109406
+API_Exception>>>>SI_ORIGINACION>>WARNING>>1713988118574
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_5' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988118574
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EMAIL.SEND.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_8' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988118574
+BIP1096E<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988118574
+API_Logs>>>>SI_ORIGINACION>>WARNING>>1713988130784
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.LOGS.REGISTER.REQ', 'com.ibus.apilogs.services.RegisterLog#FCMComposite_1_1' en el flujo de mensajes 'com.ibus.apilogs.services.RegisterLog', 'com.ibus.apilogs.services.RegisterLog' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988130784
+BIP1361E<<El nodo de flujo de mensajes 'MQ.LOGS.REGISTER.FILE.REQ', 'com.ibus.apilogs.services.RegisterLog#FCMComposite_1_5' en el flujo de mensajes 'com.ibus.apilogs.services.RegisterLog', 'com.ibus.apilogs.services.RegisterLog' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988130784
+BIP1096E<<El origen 'API_Logsproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988130784
+API_Email>>>>SI_ORIGINACION>>WARNING>>1713988160959
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.MQINP.EMAIL.SEND.REQ', 'com.ibus.apiemail.services.Send#FCMComposite_1_1' en el flujo de mensajes 'com.ibus.apiemail.services.Send', 'com.ibus.apiemail.services.Send' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713988160959
+BIP1096E<<El origen 'API_Emailproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713988160959
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713989201720
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1713989201720
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713989201720
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1713989210024
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Utils', que no se ha desplegado en el servidor de integración. <<1713989210024
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Homologations', que no se ha desplegado en el servidor de integración. <<1713989210024
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Registraduria_WSDL', que no se ha desplegado en el servidor de integración. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_8' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.GENERIC.SRV', 'co.com.registraduria.Facade_Req#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.RESP', 'co.com.registraduria.Facade_Resp#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1713989210024
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1713989210024
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>ERROR>>1713990993759
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713991199510
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1713991199510
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713991199510
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>ERROR>>1713991737900
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713991832348
+BIP9339W<<Los valores definidos en la(s) política(s) 'SI_ORIGINACION_TO_MQ' del proyecto de política 'POLICY_SI_ORIGINACION' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. <<1713991832348
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713991832348
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1713996402470
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1713996402470
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1713996402470
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1714003562520
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Utils', que no se ha desplegado en el servidor de integración. <<1714003562520
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Homologations', que no se ha desplegado en el servidor de integración. <<1714003562520
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Registraduria_WSDL', que no se ha desplegado en el servidor de integración. <<1714003562520
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714003562520
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714003578914
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714003578914
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714003578914
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714003588564
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714003588564
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714003588564
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714003598879
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714003598879
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714003598879
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714003604688
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1714003604688
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714003604688
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714003611634
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1714003611634
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714003611634
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1714003618003
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha created correctamente. <<1714003618003
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714003618003
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1714003618003
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714003626259
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714003626259
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714003626259
+API_Exception>>>>SI_ORIGINACION>>SUCCESS>>1714003639509
+BIP9332I<<Application 'API_Exception' se ha created correctamente. <<1714003639509
+BIP9326I<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado correctamente. <<1714003639509
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714003655541
+BIP9332I<<Application 'API_Logs' se ha created correctamente. <<1714003655541
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714003655541
+API_Email>>>>SI_ORIGINACION>>SUCCESS>>1714003662064
+BIP9332I<<Application 'API_Email' se ha created correctamente. <<1714003662064
+BIP9326I<<El origen 'API_Emailproject.generated.bar' se ha desplegado correctamente. <<1714003662064
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714003672357
+BIP9332I<<Application 'REGISTRADURIA_CREARUSUARIOS_SERVICE' se ha created correctamente. <<1714003672357
+BIP9326I<<El origen 'REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714003672357
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714003680955
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha created correctamente. <<1714003680955
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714003680955
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714003692126
+BIP9332I<<Application 'REGISTRADURIA_LOGINUSUARIOS_SERVICE' se ha created correctamente. <<1714003692126
+BIP9326I<<El origen 'REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714003692126
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714003817679
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714003817679
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714003817679
+REGISTRADURIA_CREARUSUARIOS_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714003834366
+BIP9332I<<Application 'REGISTRADURIA_CREARUSUARIOS_SERVICE' se ha changed correctamente. <<1714003834366
+BIP9326I<<El origen 'REGISTRADURIA_CREARUSUARIOS_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714003834366
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714004058722
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1714004058722
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714004058722
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714004354335
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714004354335
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714004354335
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_8' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.GENERIC.SRV', 'co.com.registraduria.Facade_Req#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.RESP', 'co.com.registraduria.Facade_Resp#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714004373765
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714004373765
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004435186
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004435186
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004435186
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714004479989
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714004479989
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714004479989
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004486482
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004486482
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004486482
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004498432
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004498432
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004498432
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004519587
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004519587
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004519587
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004545655
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714004545655
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004545655
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004631531
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004631531
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004631531
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714004703582
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714004703582
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714004703582
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714005344229
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714005344229
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714005344229
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714005361051
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714005361051
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714005361051
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714005406023
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714005406023
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714005406023
+REGISTRADURIA_LOGINUSUARIOS_SERVICES>>>>SI_ORIGINACION>>SUCCESS>>1714005445195
+BIP9332I<<Application 'REGISTRADURIA_LOGINUSUARIOS_SERVICES' se ha created correctamente. <<1714005445195
+BIP9326I<<El origen 'REGISTRADURIA_LOGINUSUARIOS_SERVICESproject.generated.bar' se ha desplegado correctamente. <<1714005445195
+REGISTRADURIA_LOGINUSUARIOS_SERVICES>>>>SI_ORIGINACION>>SUCCESS>>1714005488623
+BIP9332I<<Application 'REGISTRADURIA_LOGINUSUARIOS_SERVICES' se ha changed correctamente. <<1714005488623
+BIP9326I<<El origen 'REGISTRADURIA_LOGINUSUARIOS_SERVICESproject.generated.bar' se ha desplegado correctamente. <<1714005488623
+REGISTRADURIA_FACADES>>>>SI_ORIGINACION>>SUCCESS>>1714005515997
+BIP9332I<<Application 'REGISTRADURIA_FACADES' se ha created correctamente. <<1714005515997
+BIP9326I<<El origen 'REGISTRADURIA_FACADESproject.generated.bar' se ha desplegado correctamente. <<1714005515997
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714005559956
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714005559956
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714005559956
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714005602100
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714005602100
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714005602100
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714005669124
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha changed correctamente. <<1714005669124
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714005669124
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714005674931
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha changed correctamente. <<1714005674931
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714005674931
+LIB_Homologations>>>>SI_ORIGINACION>>WARNING>>1714005747255
+BIP9318E<<La solicitud a 'PreSetupValidate' recurso 'LIB_Homologations', 'LIB_Homologations' de tipo 'SharedLibrary' ha fallado. <<1714005747255
+BIP2558E<<(common.modules.facade.FacadaWS_ErrorFacade.Main, 26.8) : Función no definida 'com.common.global.cache.getErrorHomologation'. <<1714005747255
+BIP9333W<<SharedLibrary 'LIB_Homologations' ha sido created pero contiene errores que han impedido el inicio de algunos recursos. <<1714005747255
+BIP1096E<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714005747255
+LIB_GlobalCaches>>>>SI_ORIGINACION>>SUCCESS>>1714006123606
+BIP9332I<<SharedLibrary 'LIB_GlobalCaches' se ha created correctamente. <<1714006123606
+BIP9326I<<El origen 'LIB_GlobalCachesproject.generated.bar' se ha desplegado correctamente. <<1714006123606
+LIB_GlobalCaches>>>>SI_ORIGINACION>>SUCCESS>>1714006132847
+BIP9332I<<SharedLibrary 'LIB_GlobalCaches' se ha changed correctamente. <<1714006132847
+BIP9326I<<El origen 'LIB_GlobalCachesproject.generated.bar' se ha desplegado correctamente. <<1714006132847
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714006153546
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha changed correctamente. <<1714006153546
+BIP9332I<<SharedLibrary 'LIB_GlobalCaches' se ha reloaded correctamente. <<1714006153546
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714006153546
+LIB_GlobalCaches>>>>SI_ORIGINACION>>SUCCESS>>1714006233901
+BIP9332I<<SharedLibrary 'LIB_GlobalCaches' se ha changed correctamente. <<1714006233901
+BIP9326I<<El origen 'LIB_GlobalCachesproject.generated.bar' se ha desplegado correctamente. <<1714006233901
+LIB_GlobalCaches>>>>SI_ORIGINACION>>SUCCESS>>1714006246748
+BIP9332I<<SharedLibrary 'LIB_GlobalCaches' se ha changed correctamente. <<1714006246748
+BIP9326I<<El origen 'LIB_GlobalCachesproject.generated.bar' se ha desplegado correctamente. <<1714006246748
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714006368265
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714006368265
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714006368265
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1714006387222
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha changed correctamente. <<1714006387222
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1714006387222
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714006393311
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1714006393311
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714006393311
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714006397831
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1714006397831
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714006397831
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714006402429
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714006402429
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714006402429
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007010417
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007010417
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007010417
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007010417
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007010417
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007010417
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007010417
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007021702
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007021702
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007021702
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007021702
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007021702
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007021702
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007021702
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007043717
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007043717
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007043717
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007043717
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007043717
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007043717
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007043717
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007143096
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007143096
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007143096
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007143096
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007143096
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007143096
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007143096
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007210989
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007210989
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007210989
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007210989
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007210989
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007210989
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007210989
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714007327210
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha changed correctamente. <<1714007327210
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714007327210
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714007327210
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714007327210
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007327210
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714007327210
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714007345020
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha changed correctamente. <<1714007345020
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714007345020
+API_Email>>>>SI_ORIGINACION>>SUCCESS>>1714007351436
+BIP9332I<<Application 'API_Email' se ha created correctamente. <<1714007351436
+BIP9326I<<El origen 'API_Emailproject.generated.bar' se ha desplegado correctamente. <<1714007351436
+API_Exception>>>>SI_ORIGINACION>>SUCCESS>>1714007355250
+BIP9332I<<Application 'API_Exception' se ha created correctamente. <<1714007355250
+BIP9326I<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado correctamente. <<1714007355250
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714007359338
+BIP9332I<<Application 'API_Logs' se ha created correctamente. <<1714007359338
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714007359338
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714007372619
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714007372619
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714007372619
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714007380586
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha created correctamente. <<1714007380586
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714007380586
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714007434138
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1714007434138
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714007434138
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1714007486771
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha changed correctamente. <<1714007486771
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha reloaded correctamente. <<1714007486771
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha reloaded correctamente. <<1714007486771
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1714007486771
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714007506403
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha changed correctamente. <<1714007506403
+BIP9332I<<Application 'API_Logs' se ha reloaded correctamente. <<1714007506403
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714007506403
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714019205456
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714019205456
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714019205456
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714019460314
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714019460314
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714019460314
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714019725483
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714019725483
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714019725483
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714021258400
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714021258400
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714021258400
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714047581701
+BIP9339W<<Los valores definidos en la(s) política(s) 'SI_ORIGINACION_TO_MQ' del proyecto de política 'POLICY_SI_ORIGINACION' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. <<1714047581701
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714047581701
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714047625382
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714047625382
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714047625382
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714053874933
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714053874933
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714053874933
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714054229145
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1714054229145
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714054229145
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>WARNING>>1714054237543
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Utils', que no se ha desplegado en el servidor de integración. <<1714054237543
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Registraduria_WSDL', que no se ha desplegado en el servidor de integración. <<1714054237543
+BIP1239E<<La aplicación 'REGISTRADURIA_FACADE' hace referencia a la biblioteca compartida 'LIB_Homologations', que no se ha desplegado en el servidor de integración. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_8' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.GENERIC.SRV', 'co.com.registraduria.Facade_Req#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Req#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Req', 'co.com.registraduria.Facade_Req' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.RESP', 'co.com.registraduria.Facade_Resp#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_2' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.LOGS.REGISTER.REQ', 'co.com.registraduria.Facade_Resp#FCMComposite_1_7' en el flujo de mensajes 'co.com.registraduria.Facade_Resp', 'co.com.registraduria.Facade_Resp' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054237543
+BIP1096E<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054237543
+API_Exception>>>>SI_ORIGINACION>>WARNING>>1714054567985
+BIP1239E<<La aplicación 'API_Exception' hace referencia a la biblioteca compartida 'LIB_ApiException', que no se ha desplegado en el servidor de integración. <<1714054567985
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_5' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054567985
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EMAIL.SEND.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_8' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054567985
+BIP1096E<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054567985
+LIB_ApiException>>>>SI_ORIGINACION>>WARNING>>1714054582319
+BIP1240E<<La biblioteca compartida 'LIB_ApiException' hace referencia a la biblioteca compartida 'LIB_GlobalCache', que no se ha desplegado en el servidor de integración. <<1714054582319
+BIP1096E<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054582319
+LIB_ApiLogs>>>>SI_ORIGINACION>>WARNING>>1714054593560
+BIP1240E<<La biblioteca compartida 'LIB_ApiLogs' hace referencia a la biblioteca compartida 'LIB_GlobalCache', que no se ha desplegado en el servidor de integración. <<1714054593560
+BIP1096E<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054593560
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714054602773
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714054602773
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714054602773
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714054611021
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714054611021
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714054611021
+LIB_Homologations>>>>SI_ORIGINACION>>WARNING>>1714054624446
+BIP1240E<<La biblioteca compartida 'LIB_Homologations' hace referencia a la biblioteca compartida 'LIB_GlobalCache', que no se ha desplegado en el servidor de integración. <<1714054624446
+BIP1096E<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054624446
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714054629318
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714054629318
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha reloaded correctamente. <<1714054629318
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha reloaded correctamente. <<1714054629318
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha reloaded correctamente. <<1714054629318
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714054629318
+LIB_ApiException>>>>SI_ORIGINACION>>WARNING>>1714054641113
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EXCEPTION.REGISTER.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_5' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054641113
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.EMAIL.SEND.REQ', 'com.ibus.apiexception.services.RegisterException#FCMComposite_1_8' en el flujo de mensajes 'com.ibus.apiexception.services.RegisterException', 'com.ibus.apiexception.services.RegisterException' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054641113
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha changed correctamente. <<1714054641113
+BIP1096E<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054641113
+API_Email>>>>SI_ORIGINACION>>WARNING>>1714054649076
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.MQINP.EMAIL.SEND.REQ', 'com.ibus.apiemail.services.Send#FCMComposite_1_1' en el flujo de mensajes 'com.ibus.apiemail.services.Send', 'com.ibus.apiemail.services.Send' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054649076
+BIP1096E<<El origen 'API_Emailproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054649076
+API_Email>>>>SI_ORIGINACION>>WARNING>>1714054689505
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.MQINP.EMAIL.SEND.REQ', 'com.ibus.apiemail.services.Send#FCMComposite_1_1' en el flujo de mensajes 'com.ibus.apiemail.services.Send', 'com.ibus.apiemail.services.Send' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714054689505
+BIP1096E<<El origen 'API_Emailproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714054689505
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714054845180
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1714054845180
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714054845180
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714064125481
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714064125481
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714064125481
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714064135880
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714064135880
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714064135880
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714064140802
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714064140802
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714064140802
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1714064145583
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha created correctamente. <<1714064145583
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1714064145583
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714064152463
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1714064152463
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714064152463
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714064157594
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1714064157594
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714064157594
+API_Email>>>>SI_ORIGINACION>>SUCCESS>>1714064178635
+BIP9332I<<Application 'API_Email' se ha created correctamente. <<1714064178635
+BIP9326I<<El origen 'API_Emailproject.generated.bar' se ha desplegado correctamente. <<1714064178635
+API_Exception>>>>SI_ORIGINACION>>SUCCESS>>1714064183871
+BIP9332I<<Application 'API_Exception' se ha created correctamente. <<1714064183871
+BIP9326I<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado correctamente. <<1714064183871
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714064189295
+BIP9332I<<Application 'API_Logs' se ha created correctamente. <<1714064189295
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714064189295
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714064194910
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714064194910
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714064194910
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714064243405
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714064243405
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714064243405
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714064252791
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714064252791
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714064252791
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714064258248
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714064258248
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714064258248
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714064263417
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1714064263417
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714064263417
+API_Exception>>>>SI_ORIGINACION>>WARNING>>1714064270480
+BIP1239E<<La aplicación 'API_Exception' hace referencia a la biblioteca compartida 'LIB_ApiException', que no se ha desplegado en el servidor de integración. <<1714064270480
+BIP1096E<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714064270480
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714064276021
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1714064276021
+BIP9332I<<Application 'API_Exception' se ha reloaded correctamente. <<1714064276021
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714064276021
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714064281600
+BIP9332I<<Application 'API_Logs' se ha created correctamente. <<1714064281600
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714064281600
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714065819047
+BIP9332I<<PolicyProject 'POLICY_SI_ORIGINACION' se ha created correctamente. <<1714065819047
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714065819047
+LIB_Utils>>>>SI_ORIGINACION>>SUCCESS>>1714068219096
+BIP9332I<<SharedLibrary 'LIB_Utils' se ha created correctamente. <<1714068219096
+BIP9326I<<El origen 'LIB_Utilsproject.generated.bar' se ha desplegado correctamente. <<1714068219096
+LIB_Registraduria_WSDL>>>>SI_ORIGINACION>>SUCCESS>>1714068228642
+BIP9332I<<SharedLibrary 'LIB_Registraduria_WSDL' se ha created correctamente. <<1714068228642
+BIP9326I<<El origen 'LIB_Registraduria_WSDLproject.generated.bar' se ha desplegado correctamente. <<1714068228642
+LIB_GlobalCache>>>>SI_ORIGINACION>>SUCCESS>>1714068233636
+BIP9332I<<SharedLibrary 'LIB_GlobalCache' se ha created correctamente. <<1714068233636
+BIP9326I<<El origen 'LIB_GlobalCacheproject.generated.bar' se ha desplegado correctamente. <<1714068233636
+LIB_ApiLogs>>>>SI_ORIGINACION>>SUCCESS>>1714068237886
+BIP9332I<<SharedLibrary 'LIB_ApiLogs' se ha created correctamente. <<1714068237886
+BIP9326I<<El origen 'LIB_ApiLogsproject.generated.bar' se ha desplegado correctamente. <<1714068237886
+LIB_ApiException>>>>SI_ORIGINACION>>SUCCESS>>1714068242862
+BIP9332I<<SharedLibrary 'LIB_ApiException' se ha created correctamente. <<1714068242862
+BIP9326I<<El origen 'LIB_ApiExceptionproject.generated.bar' se ha desplegado correctamente. <<1714068242862
+LIB_Homologations>>>>SI_ORIGINACION>>SUCCESS>>1714068262928
+BIP9332I<<SharedLibrary 'LIB_Homologations' se ha created correctamente. <<1714068262928
+BIP9326I<<El origen 'LIB_Homologationsproject.generated.bar' se ha desplegado correctamente. <<1714068262928
+API_Email>>>>SI_ORIGINACION>>SUCCESS>>1714068272187
+BIP9332I<<Application 'API_Email' se ha created correctamente. <<1714068272187
+BIP9326I<<El origen 'API_Emailproject.generated.bar' se ha desplegado correctamente. <<1714068272187
+API_Exception>>>>SI_ORIGINACION>>SUCCESS>>1714068276027
+BIP9332I<<Application 'API_Exception' se ha created correctamente. <<1714068276027
+BIP9326I<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado correctamente. <<1714068276027
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714068281107
+BIP9332I<<Application 'API_Logs' se ha created correctamente. <<1714068281107
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714068281107
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714068287808
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha created correctamente. <<1714068287808
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714068287808
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714068298454
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha created correctamente. <<1714068298454
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714068298454
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714068926760
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714068926760
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714068926760
+API_Exception>>>>SI_ORIGINACION>>SUCCESS>>1714071393253
+BIP9332I<<Application 'API_Exception' se ha changed correctamente. <<1714071393253
+BIP9326I<<El origen 'API_Exceptionproject.generated.bar' se ha desplegado correctamente. <<1714071393253
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714071402658
+BIP9332I<<Application 'API_Logs' se ha changed correctamente. <<1714071402658
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714071402658
+API_Logs>>>>SI_ORIGINACION>>SUCCESS>>1714071408731
+BIP9332I<<Application 'API_Logs' se ha changed correctamente. <<1714071408731
+BIP9326I<<El origen 'API_Logsproject.generated.bar' se ha desplegado correctamente. <<1714071408731
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714071520977
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714071520977
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714071520977
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714071603491
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714071603491
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714071603491
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714072559078
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714072559078
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714072559078
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714072700294
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714072700294
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714072700294
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714072935755
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714072935755
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714072935755
+REGISTRADURIA_FACADE>>>>SI_ORIGINACION>>SUCCESS>>1714073013720
+BIP9332I<<Application 'REGISTRADURIA_FACADE' se ha changed correctamente. <<1714073013720
+BIP9326I<<El origen 'REGISTRADURIA_FACADEproject.generated.bar' se ha desplegado correctamente. <<1714073013720
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>ERROR>>1714073170553
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>ERROR>>1714073214369
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714073266193
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714073266193
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714073266193
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714076398977
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714076398977
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714076398977
+REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714076405418
+BIP9332I<<Application 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE' se ha changed correctamente. <<1714076405418
+BIP9326I<<El origen 'REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714076405418
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714239874253
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714239874253
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714239874253
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>>>SI_ORIGINACION>>WARNING>>1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQ Reply', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_1' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_3' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQINP.REGISTRADURIA.LOGINUSUARIO.REQ', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_4' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQ Reply1', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_5' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.LOGS.REGISTER.REQ1', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_9' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1361E<<El nodo de flujo de mensajes 'MQOUT.MQ.EXCEPTION.REGISTER.REQ', 'co.com.registraduria.RegistraduriaLoginUsuarios#FCMComposite_1_10' en el flujo de mensajes 'co.com.registraduria.RegistraduriaLoginUsuarios', 'co.com.registraduria.RegistraduriaLoginUsuarios' requiere la política 'Default' de tipo 'MQEndpoint', que no está desplegada. <<1714240012324
+BIP1096E<<El origen 'REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar' se ha desplegado, pero ha habido uno o más errores que podrían suponer que los recursos desplegados no puedan ejecutar. <<1714240012324
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714240042712
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714240042712
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714240042712
+REGISTRADURIA_LOGINUSUARIOS_SERVICE>>>>SI_ORIGINACION>>SUCCESS>>1714240080981
+BIP9332I<<Application 'REGISTRADURIA_LOGINUSUARIOS_SERVICE' se ha changed correctamente. <<1714240080981
+BIP9326I<<El origen 'REGISTRADURIA_LOGINUSUARIOS_SERVICEproject.generated.bar' se ha desplegado correctamente. <<1714240080981
+POLICY_SI_ORIGINACION>>>>SI_ORIGINACION>>SUCCESS>>1714240772089
+BIP9332I<<Policy 'SI_ORIGINACION_TO_MQ' se ha changed correctamente. <<1714240772089
+BIP9326I<<El origen 'POLICY_SI_ORIGINACIONproject.generated.bar' se ha desplegado correctamente. <<1714240772089

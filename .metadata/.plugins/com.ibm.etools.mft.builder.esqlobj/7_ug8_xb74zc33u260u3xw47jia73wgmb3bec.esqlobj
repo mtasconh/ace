@@ -1,0 +1,18 @@
+CREATE FUNCTION getMaskByMethod(IN method CHARACTER, IN valueMask CHARACTER)RETURNS CHARACTER
+BEGIN
+    DECLARE total INTEGER LENGTH(valueMask);
+    DECLARE strLeft, strRight CHARACTER '';
+    IF method = 'LastFour' THEN
+        --SET valueMask = LEFT(valueMask,6)||REPLICATE('*',total-4) ||RIGHT(valueMask,4);
+        SET valueMask = LEFT(valueMask,(total-4))||REPLICATE('*',4);
+    ELSEIF method = 'All' THEN
+        SET valueMask = REPLICATE('*',total);
+    ELSEIF method = 'Track2' THEN
+        SET strLeft = SUBSTRING(valueMask BEFORE '=');
+        SET strRight = SUBSTRING(valueMask AFTER '=');
+        SET total = LENGTH(strLeft);
+        SET valueMask = LEFT(valueMask,6)||REPLICATE('*',total-10) ||RIGHT(valueMask,4)||'='||LEFT(valueMask,4)||REPLICATE('*',LENGTH(strRight)-4);
+    END IF;
+    
+    RETURN valueMask; 
+  END;

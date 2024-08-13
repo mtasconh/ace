@@ -1,0 +1,39 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		--Copiar cabeceras
+		SET OutputRoot.MQMD 	= InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 	= InputRoot.MQRFH2;
+		
+		--Declare referencia Datos de respuesta
+		DECLARE refMQRFH2 REFERENCE TO InputRoot.MQRFH2;
+		
+	    --Declarar referencia al mensaje de error
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+		
+		--Nombre de mensajes de respuesta
+		DECLARE nmElementRs CHARACTER '';
+		
+		--Nombre del objeto de respuesta
+		SET nmElementRs 	= COALESCE(refMQRFH2.usr.response.MQ.nmNode, 'ApplicationFault');
+		
+		/******************************************************/
+		-- Declaración de namespaces propios de servicio
+		/******************************************************/
+		--Creación de mensaje de salida.
+		DECLARE refOut REFERENCE TO OutputRoot;
+		CREATE FIELD OutputRoot.XMLNSC.{nmElementRs};
+		MOVE refOut TO OutputRoot.XMLNSC.{nmElementRs};
+		
+		DECLARE refEnv REFERENCE TO Environment;
+		
+		--Creación del mensaje de error de fachada
+		SET refOut.ContextTransaction.IdTransaction 					= refMQRFH2.usr.contextTransaction.IdTransaction;
+		SET refOut.ContextTransaction.CodeTransaction 					= 'E';
+		SET refOut.ContextTransaction.DescTransaction 					= refInp.desc;
+		SET refOut.ContextTransaction.ServerStatus.CodeTransaction 		= COALESCE(refInp.ContextTransaction.CodeTransaction,refInp.code);
+		SET refOut.ContextTransaction.ServerStatus.DescTransaction 		= COALESCE(refInp.ContextTransaction.DescTransaction,refInp.desc);
+		
+		RETURN TRUE;
+	END;

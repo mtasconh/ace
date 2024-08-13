@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="API_Logsproject.generated.bar" deployTimestamp="2024-04-25 18:56:51">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="com.ibus.apilogs.services.RegisterLog" deployBarfile="API_Logsproject.generated.bar" deployTimestamp="2024-04-25 18:56:51">
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#CmpValidationHeader.connectDatasourceBeforeFlowStarts" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#CmpValidationHeader.dataSource" override="IIBDATA">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#CmpValidationHeader.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.queueName" override="MQ.LOGS.REGISTER.FILE.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQ.LOGS.REGISTER.FILE.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#MQINP.LOGS.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#RegisterLogs.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#RegisterLogs.dataSource" override="IIBDATA">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#TraceLog.filePath" override="APILog_Register.log">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apilogs.services.RegisterLog#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

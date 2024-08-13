@@ -1,0 +1,55 @@
+CREATE COMPUTE MODULE FacadaREST_ReceiveMsg
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		--Crear cabeceras de mensaje
+		CREATE FIELD OutputRoot.Properties;
+		CREATE FIELD OutputRoot.MQMD;
+		CREATE FIELD OutputRoot.MQRFH2;
+		
+		--Eliminar cabeceras HHPT para envío de mensajes a MQ
+		SET OutputRoot.HTTPInputHeader = NULL;
+		
+		--Copia de mensaje recibido desde cliente
+		SET OutputRoot.JSON = InputRoot.JSON;
+		
+		--Crear referencia a objeto de entrada.
+		DECLARE refInp REFERENCE TO InputRoot.JSON;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+		
+		--Guardar nombre de elementos de respuesta en caso de falla.
+		SET OutputRoot.MQRFH2.usr.response.WS.nmNode	= REPLACE(FIELDNAME(refInp), REQUEST_NMELEMENT, RESPONSE_NMELEMENT);
+		
+		--Crear referencia a Environment
+		DECLARE refEnv REFERENCE TO Environment;
+		
+		--Guardar datos en cabecera para auditoría
+		SET OutputRoot.MQRFH2.usr.contextTransaction 				= refInp.*:ContextTransaction;
+		SET OutputRoot.MQRFH2.usr.contextTransaction.idService		= refInp.*:ContextTransaction.*:ApiName || '_' || UCASE(SUBSTRING(InputLocalEnvironment.HTTP.Input.Path.Segment[3] FROM 1 FOR 1)) || SUBSTRING(InputLocalEnvironment.HTTP.Input.Path.Segment[3] FROM 2);
+		SET OutputRoot.MQRFH2.usr.log.component						= UDP_APPLICATION;
+		SET OutputRoot.MQRFH2.usr.log.idLog 						= FACADE_RQ_TRACE;
+		SET OutputRoot.MQRFH2.usr.log.transactionDate 				= com.common.utils.functions.getDateRegisterOracle();
+		SET OutputRoot.MQRFH2.usr.log.ipClient 						= SUBSTRING(InputRoot.HTTPInputHeader.Host BEFORE ':');
+		
+		--Setear el tipo de mensaje esperado en la respuesta
+		SET OutputRoot.MQRFH2.usr.response.formatType				= 'REST';
+		
+		--Nombre de componente de entrada, se tiene en cuenta para registro de logs tipo 4. Respuesta al cliente.
+		SET OutputRoot.MQRFH2.usr.response.nmFcd					= UDP_APPLICATION;
+		
+		--Tomar identificador de cliente.
+		SET OutputRoot.MQRFH2.usr.response.WS.replyIdentifier		= InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		
+		--Salvar datos de respuesta
+		SET Environment.Variables.usr								= OutputRoot.MQRFH2.usr;
+		
+		--Poner nombre de cola destino.
+		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName 	=  PREFIX_QUEUE || UPPER(REPLACE(OutputRoot.MQRFH2.usr.contextTransaction.idService,'_','.')) || SUFIX_QUEUE;
+		
+		--Propaga mensaje de auditoría
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		
+		--Propaga mensaje a componente específico
+		RETURN TRUE;
+	END;
+END MODULE;

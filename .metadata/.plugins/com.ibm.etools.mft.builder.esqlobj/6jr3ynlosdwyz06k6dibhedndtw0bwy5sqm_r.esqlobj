@@ -1,0 +1,4 @@
+CREATE PROCEDURE insertLogError(IN refConfig REFERENCE, IN trace CHARACTER) BEGIN
+	DECLARE sql CHARACTER 'INSERT INTO ERROR_SERVICE(FK_ID_SERVICE,FK_ID_TRANSACTION,SOURCE,TRACE,NUM_SEND_EMAIL,ERROR_DATE) VALUES (?,?,?,?,?,?)';
+	PASSTHRU(sql,refConfig.usr.contextTransaction.idService,refConfig.usr.contextTransaction.IdTransaction,refConfig.usr.log.component,trace,0,CURRENT_TIMESTAMP);
+END;

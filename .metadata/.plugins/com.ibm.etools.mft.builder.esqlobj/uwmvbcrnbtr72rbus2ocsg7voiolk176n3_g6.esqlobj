@@ -1,0 +1,24 @@
+CREATE FUNCTION identifierCode(IN source CHARACTER) RETURNS CHARACTER
+BEGIN
+	CASE source
+		WHEN 'BR' THEN 
+			RETURN '2';
+		WHEN 'PI' THEN 
+			RETURN '3';
+		WHEN 'PN' THEN 
+			RETURN '4';
+		WHEN 'VS' THEN 
+			RETURN '5';
+		WHEN 'XX' THEN 
+			RETURN '6';
+	    WHEN 'AN' THEN 
+			RETURN 'M';
+	   WHEN 'DS' THEN 
+			RETURN 'P';
+	   WHEN 'DL' THEN 
+			RETURN 'A';
+	   WHEN 'UPIN' THEN 
+			RETURN 'N';											
+		
+	END CASE;
+END;

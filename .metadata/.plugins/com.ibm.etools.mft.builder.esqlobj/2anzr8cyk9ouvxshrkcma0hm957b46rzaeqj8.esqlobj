@@ -1,0 +1,4 @@
+CREATE FUNCTION putGlobalCache (IN key CHARACTER, IN keyValue CHARACTER, IN mapName CHARACTER)
+RETURNS CHARACTER
+LANGUAGE JAVA
+EXTERNAL NAME "co.com.global.cache.GlobalCache.put";

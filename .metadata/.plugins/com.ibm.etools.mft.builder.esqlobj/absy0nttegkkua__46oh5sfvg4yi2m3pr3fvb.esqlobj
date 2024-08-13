@@ -1,0 +1,26 @@
+CREATE FUNCTION getHomologation(IN srcApp CHARACTER, IN destApp CHARACTER, IN category CHARACTER, IN homologationName CHARACTER)
+RETURNS CHARACTER
+BEGIN
+	DEClARE destValue CHARACTER EMPTY_STRING;
+	DECLARE homologation ROW;
+	DECLARE refHomologation REFERENCE TO homologation.data;
+	DEClARE keyName CHARACTER srcApp || destApp || category ||homologationName;
+	
+	SET destValue = getGlobalCache(keyName, HOMOLOGATION_CATALOG_MAP);
+	--SET destValue = NULL;
+	
+	IF (destValue IS NULL) THEN
+		--Consulta del valor de la homologacions
+		CALL com.common.global.cache.dao.getHomologation(srcApp, destApp, category, homologationName, refHomologation);
+		IF EXISTS(homologation.values[]) THEN
+			SET destValue = CAST (homologation.values.HOMOLOGATED_VALUE AS CHARACTER);
+		    DECLARE result CHARACTER putGlobalCache(keyName, destValue, HOMOLOGATION_CATALOG_MAP);
+		    IF(result <> EMPTY_STRING)THEN
+		    	SET destValue = EMPTY_STRING;
+			END IF;
+		ELSE
+			SET destValue = DEFAULT_DESCRIPTION;
+		END IF;	
+	END IF;
+	RETURN destValue;
+END;

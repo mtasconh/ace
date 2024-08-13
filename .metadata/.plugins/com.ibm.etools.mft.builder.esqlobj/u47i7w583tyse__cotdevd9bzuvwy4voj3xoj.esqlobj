@@ -1,0 +1,38 @@
+CREATE COMPUTE MODULE FacadaWS_ErrorFacade
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		--Declare referencia Datos de respuesta
+		DECLARE refMQRFH2 REFERENCE TO InputRoot.MQRFH2;
+		
+	    --Declarar referencia al mensaje de error
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+		
+		--Nombre de mensajes de respuesta
+		DECLARE nmElementRs CHARACTER '';
+		
+		--Cabecera de error WebService
+		CREATE FIELD OutputRoot.XMLNSC;
+		DECLARE refOut REFERENCE TO OutputRoot.XMLNSC;
+		
+		--Obtener namespace de mensaje de respuesta
+		DECLARE v1 NAMESPACE refMQRFH2.usr.response.WS.namespace.*:v1;
+		
+		--Nombre del objeto de respuesta
+		SET nmElementRs 	= COALESCE(refMQRFH2.usr.response.WS.nmNode, 'ApplicationFault');
+		
+		DECLARE data ROW;
+		DECLARE refObjError REFERENCE TO data.objError;
+		CALL com.common.global.cache.getErrorHomologation(refInp.code, refObjError);
+		
+		--Creación del mensaje de error de fachada
+		SET refOut.v1:{nmElementRs}.ContextTransaction.IdTransaction 					= refMQRFH2.usr.contextTransaction.IdTransaction;
+		SET refOut.v1:{nmElementRs}.ContextTransaction.CodeTransaction 					= refObjError.code;
+		SET refOut.v1:{nmElementRs}.ContextTransaction.DescTransaction 					= refObjError.desc;
+		SET refOut.v1:{nmElementRs}.ContextTransaction.ServerStatus.CodeTransaction 	= refInp.code;
+		SET refOut.v1:{nmElementRs}.ContextTransaction.ServerStatus.DescTransaction 	= refInp.desc;
+		
+		RETURN TRUE;
+	END;
+END MODULE;

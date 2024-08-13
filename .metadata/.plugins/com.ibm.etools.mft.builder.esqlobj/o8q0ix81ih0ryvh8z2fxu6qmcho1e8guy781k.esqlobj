@@ -1,0 +1,30 @@
+CREATE COMPUTE MODULE ServiceSaveDataToEnv
+	DECLARE SERVICE_RQ_TRACE CONSTANT INTEGER	'2';
+	DECLARE NM_COMPONENT EXTERNAL CHARACTER '';
+	DECLARE DEFAULT_ENCODING CONSTANT INTEGER 1252;
+	DECLARE DEFAULT_CCSID CONSTANT INTEGER 1209;
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		/******************************************************/
+		-- Copiar cabeceras de mensaje
+		/******************************************************/
+		SET OutputRoot.MQMD 	= InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 	= InputRoot.MQRFH2;
+		
+		/******************************************************/
+		-- Declarar referencias
+		/******************************************************/
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		
+		/******************************************************/
+		-- Setear información para auditoría y headers
+		/******************************************************/
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, SERVICE_RQ_TRACE, NM_COMPONENT);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+		
+		SET OutputRoot.XMLNSC 	= InputRoot.XMLNSC; 
+		RETURN TRUE;
+	END;
+END MODULE;

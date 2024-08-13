@@ -1,0 +1,29 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		/******************************************************/
+		-- Copiar todo el mensaje
+		/******************************************************/
+		SET OutputRoot 	= InputRoot;
+		
+		/******************************************************/
+		-- Declarar referencias
+		/******************************************************/
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		
+		/******************************************************/
+		-- Setear información para auditoría y headers
+		/******************************************************/
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, FACADE_RS_TRACE, refMQRFH2.usr.contextTransaction.ApiName || '.Fcd');
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+		
+		--Tomar identificador para responder a cliente
+		SET OutputRoot.MQMD.ReplyToQ 	= refMQRFH2.usr.response.MQ.replyToQ;
+		
+		/******************************************************/
+		-- Envío para auditoría
+		/******************************************************/
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		RETURN TRUE;
+	END;

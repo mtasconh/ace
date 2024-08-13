@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332650487" workspaceResource="/LIB_Utils/com/common/utils/dao/ProceduresDB.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Utils\com\common\utils\dao\ProceduresDB.esql.&#xA;Successfully added file LIB_Utils\com\common\utils\dao\ProceduresDB.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\utils\dao\ProceduresDB.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650507" workspaceResource="/LIB_Utils/com/common/utils/functions/Functions.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Utils\com\common\utils\functions\Functions.esql.&#xA;Successfully added file LIB_Utils\com\common\utils\functions\Functions.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\utils\functions\Functions.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650528" workspaceResource="/LIB_Utils/com/common/utils/procedures/Procedures.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Utils\com\common\utils\procedures\Procedures.esql.&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Utils\com\common\utils\procedures\Procedures.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\utils\procedures\Procedures.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332674678" workspaceResource="/LIB_Utils/library.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="library.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

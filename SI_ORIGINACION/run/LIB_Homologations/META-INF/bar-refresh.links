@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332651155" workspaceResource="/LIB_Homologations/common/modules/facade/Modules.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\modules\facade\Modules.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/HomologationCache.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\modules\facade\Modules.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\modules\facade\Modules.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332651177" workspaceResource="/LIB_Homologations/common/modules/facade/mq/Modules.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\modules\facade\mq\Modules.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\modules\facade\mq\Modules.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\modules\facade\mq\Modules.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332651197" workspaceResource="/LIB_Homologations/common/modules/facade/rest/ModulesREST.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\modules\facade\rest\ModulesREST.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/HomologationCache.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\modules\facade\rest\ModulesREST.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\modules\facade\rest\ModulesREST.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332651218" workspaceResource="/LIB_Homologations/common/modules/facade/tcp/ModulesTCP.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\modules\facade\tcp\ModulesTCP.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\modules\facade\tcp\ModulesTCP.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\modules\facade\tcp\ModulesTCP.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332651238" workspaceResource="/LIB_Homologations/common/modules/service/Modules.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\modules\service\Modules.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/HomologationCache.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\modules\service\Modules.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\modules\service\Modules.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332651256" workspaceResource="/LIB_Homologations/common/procedures/utils/Procedures.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_Homologations\common\procedures\utils\Procedures.esql.&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_Homologations\common\procedures\utils\Procedures.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="common\procedures\utils\Procedures.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1714005748498" workspaceResource="/LIB_Homologations/library.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="library.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

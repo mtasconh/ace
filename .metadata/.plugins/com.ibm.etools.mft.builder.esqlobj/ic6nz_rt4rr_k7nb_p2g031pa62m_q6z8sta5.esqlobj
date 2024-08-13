@@ -1,0 +1,45 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		--Pasar cabeceras de mensaje.
+		SET OutputRoot.MQMD    = InputRoot.MQMD;
+		SET OutputRoot.MQRFH2  = InputRoot.MQRFH2;		
+		
+		-- Declarar referencias
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		DECLARE inputRFHRef REFERENCE TO InputRoot.MQRFH2;
+		
+		--Copiar Identificador del Mensaje
+		SET refEnv.SOAP.ReplyIdentifier = inputRFHRef.SOAP.ReplyIdentifier;
+		
+		
+		--Enviar información para auditoría y headers
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, SERVICE_RQ_TRACE, NM_COMPONENT_REGISTRY_PRq);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+        
+        --Propaga mensaje de auditoría
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		
+		DECLARE inputRef REFERENCE TO InputRoot.XMLNSC.ns:RegistroUsuarioReq.UsuarioIn;
+		CREATE FIELD OutputRoot.XMLNSC.ns:RegistroUsuarioReq.UsuarioIn;
+		DECLARE outputRef REFERENCE TO OutputRoot.XMLNSC.ns:RegistroUsuarioReq.UsuarioIn; 
+		--Crear el mensaje para enviar al partner
+		SET outputRef  = inputRef; 
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;

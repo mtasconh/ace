@@ -1,0 +1,49 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		--Crear cabeceras de mensaje
+		CREATE FIELD OutputRoot.Properties;
+		CREATE FIELD OutputRoot.MQMD;
+		CREATE FIELD OutputRoot.MQRFH2;
+		
+		--Tomar identificador de cliente.
+		SET OutputRoot.MQRFH2.usr.response.WS.replyIdentifier                  = InputLocalEnvironment.Destination.SOAP.Reply.ReplyIdentifier;
+		
+		--Crear referencia a objeto de entrada.
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+			
+		--Obtenemos el Nombre de la Operacion Invocada.
+		DECLARE Operation  CHARACTER InputLocalEnvironment.SOAP.Envelope.InRequest.RegistraduriaSOAP.SOAP.Context.operation;
+		SET OutputRoot.MQRFH2.usr.operation = Operation;
+		
+		--Declarar referencia a MQRFH2.usr
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+				
+		--Guardar datos en cabecera para auditoría
+		SET refMQRFH2.usr.contextTransaction.IdTransaction  	        =  CAST(CURRENT_GMTTIMESTAMP AS CHARACTER FORMAT 'YYYYmmddHHmmss')|| '_' || CAST(refInp.RqUID AS CHARACTER);                                       	
+		SET refMQRFH2.usr.contextTransaction.idService					= UDP_ApiName || '.' || Operation;
+		SET refMQRFH2.usr.contextTransaction.StateTransaction           = 'PT';
+		SET refMQRFH2.usr.contextTransaction.DescState 	                = COALESCE('Transacción en proceso');	
+		SET refMQRFH2.usr.log.component									= NM_COMPONENT;
+		SET refMQRFH2.usr.log.idLog 									= FACADE_RQ_TRACE;
+		SET refMQRFH2.usr.log.transactionDate 							= com.common.utils.functions.getDateRegisterOracle();
+		
+		--Setear el tipo de mensaje esperado en la respuesta
+		SET refMQRFH2.usr.response.formatType							= 'XMLNSC';
+		
+		--Salvar datos de respuesta
+		SET Environment.Variables.usr								      = refMQRFH2.usr;
+		
+		--Poner nombre de cola destino.
+		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName 	=  PREFIX_QUEUE || UPPER(REPLACE(OutputRoot.MQRFH2.usr.contextTransaction.idService,'_','.')) || SUFIX_QUEUE;
+		
+		--Copia de mensaje recibido desde cliente
+		SET OutputRoot.XMLNSC = InputRoot.XMLNSC;
+		
+		--Propaga mensaje de auditoría
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+			
+		--Propaga mensaje a componente específico
+		RETURN TRUE;
+	END;

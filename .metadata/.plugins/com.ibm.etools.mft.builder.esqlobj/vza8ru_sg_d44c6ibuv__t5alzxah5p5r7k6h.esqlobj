@@ -1,0 +1,11 @@
+CREATE PROCEDURE insertLogTransactionDetail(INOUT refConfig REFERENCE) BEGIN
+	DECLARE dateRegister TIMESTAMP CAST(refConfig.log.transactionDate AS TIMESTAMP FORMAT 'yyyyMMddHHmmssSS');
+	DECLARE message BLOB CAST(refConfig.message AS BLOB CCSID 819);
+	
+	DECLARE nextVal ROW;
+	SET nextVal.ID[] = PASSTHRU('SELECT LOG_TRANSACTION_DETAIL_SEQ.NEXTVAL FROM DUAL');
+	DECLARE logId INTEGER CAST(nextVal.ID.NEXTVAL AS FLOAT);
+	
+	DECLARE sql CHARACTER 'INSERT INTO LOG_TRANSACTION_DETAIL(PK_ID_LOG_TRANSACTION_DETAIL, FK_ID_SERVICE,FK_ID_TRANSACTION,DATE_MESSAGE,TYPE_LOG,MESSAGE,COMPONENT) VALUES (?,?,?,?,?,?,?)';
+	PASSTHRU(sql,logId,refConfig.contextTransaction.idService, refConfig.contextTransaction.IdTransaction,dateRegister,refConfig.log.idLog,message,refConfig.log.component);
+END;

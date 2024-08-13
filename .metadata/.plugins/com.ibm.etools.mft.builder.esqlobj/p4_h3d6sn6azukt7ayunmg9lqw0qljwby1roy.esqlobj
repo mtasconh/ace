@@ -1,0 +1,12 @@
+CREATE PROCEDURE getLogByTransaction(IN idTransaction CHARACTER, INOUT result REFERENCE) BEGIN
+	DECLARE sql CHARACTER 'SELECT * FROM LOG_TRANSACTION WHERE ID_TRANSACTION = ?';
+	SET result.Log.Main[] = PASSTHRU(sql,idTransaction);
+	
+	--Consultar detalle
+	SET sql = 'SELECT * FROM LOG_TRANSACTION_DETAIL WHERE FK_ID_TRANSACTION = ?';	
+	SET result.Log.Details.Logs[] = PASSTHRU(sql,idTransaction);
+	
+	--Consultar errores
+	SET sql = 'SELECT * FROM ERROR_SERVICE WHERE FK_ID_TRANSACTION = ?';	
+	SET result.Log.Errors.Logs[] = PASSTHRU(sql,idTransaction);
+END;

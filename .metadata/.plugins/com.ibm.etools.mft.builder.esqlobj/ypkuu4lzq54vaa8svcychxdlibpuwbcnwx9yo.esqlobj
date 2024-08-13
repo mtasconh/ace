@@ -1,0 +1,53 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		--Pasar cabeceras de mensaje.
+		SET OutputRoot.MQMD    = InputRoot.MQMD;
+		SET OutputRoot.MQRFH2  = InputRoot.MQRFH2;		
+		-- Declarar referencias
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;		
+		--Copiar Identificador del Mensaje
+--		SET refEnv.SOAP.ReplyIdentifier = refMQRFH2.SOAP.ReplyIdentifier;       
+        --Enviar información para auditoría y headers
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, SERVICE_RQ_TRACE, NM_COMPONENT_QUERY_PRq);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);		
+		--Propaga mensaje de auditoría
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;			
+		--Nombre de mensajes de respuesta
+		DECLARE nmElementRs CHARACTER COALESCE(refMQRFH2.usr.response.MQ.nmNode, 'ApplicationFault');		
+		----Guardar Mensaje que llega desde la fachada
+		SET OutputLocalEnvironment.Variables.XMLNSC.ns:RegistroUsuarioReq = InputRoot.XMLNSC.ns:RegistroUsuarioReq;
+		SET refEnv.Variables.headers.MQRFH2.XMLNSC.RegistroUsuarioReq = InputRoot.XMLNSC.ns:RegistroUsuarioReq;		
+		--Crear referencia del mensaje de Entrada
+		DECLARE inputRef REFERENCE TO InputRoot.XMLNSC.ns:RegistroUsuarioReq.UsuarioIn;		
+		--Crear referencia del mensaje hacia el Back-end
+		CREATE FIELD OutputRoot.XMLNSC.ns1:ConsultaFuncionarioReq.FuncionarioIn;
+		DECLARE outputRef REFERENCE TO OutputRoot.XMLNSC.ns1:ConsultaFuncionarioReq.FuncionarioIn;		
+		--Crear el mensaje para enviar al partner		
+		SET outputRef.RqUID                     = COALESCE(inputRef.RqUID, '');
+		SET outputRef.Fecha_Consulta            = COALESCE(inputRef.Fecha_Registro, '');
+		SET outputRef.Identificacion            = COALESCE(inputRef.Identificacion, '');
+		SET outputRef.Nombres                   = COALESCE(inputRef.UsuarioIn.Nombres, '');
+		SET outputRef.Apellidos                 = COALESCE(inputRef.Apellidos, '');
+		SET outputRef.Fuerza_Publica            = COALESCE(inputRef.Fuerza_Publica, '');
+		SET outputRef.Rango                     = COALESCE(inputRef.Rango, '');
+		SET outputRef.Email                     = COALESCE(inputRef.Email, '');
+	    RETURN TRUE;
+		
+		
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;

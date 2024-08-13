@@ -1,0 +1,24 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		/******************************************************/
+		-- Copiar cabeceras de mensaje
+		/******************************************************/
+		SET OutputRoot.MQMD 	= InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 	= InputRoot.MQRFH2;
+		
+		/******************************************************/
+		-- Declarar referencias
+		/******************************************************/
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		
+		/******************************************************/
+		-- Setear información para auditoría y headers
+		/******************************************************/
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, SERVICE_RQ_TRACE, NM_COMPONENT);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+		
+		SET OutputRoot.XMLNSC 	= InputRoot.XMLNSC; 
+		RETURN TRUE;
+	END;

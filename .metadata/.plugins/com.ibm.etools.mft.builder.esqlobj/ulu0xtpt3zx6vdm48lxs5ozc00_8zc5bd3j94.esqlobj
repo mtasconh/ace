@@ -1,0 +1,33 @@
+CREATE COMPUTE MODULE FacadeWS_GetReplyIdentifier
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		/******************************************************/
+		-- Copiar todo el mensaje
+		/******************************************************/
+		SET OutputRoot 	= InputRoot;
+		
+		/******************************************************/
+		-- Declarar referencias
+		/******************************************************/
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		
+		/******************************************************/
+		-- Setear información para auditoría y headers
+		/******************************************************/
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, FACADE_RS_TRACE, NM_COMPONENT);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+		
+		--Tomar identificador para responder a cliente
+		SET OutputLocalEnvironment.Destination.SOAP.Reply.ReplyIdentifier 	= CAST(refMQRFH2.usr.response.WS.replyIdentifier AS BLOB);
+		
+		/******************************************************/
+		-- Envío para auditoría
+		/******************************************************/
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		SET OutputRoot.MQMD 	= NULL;
+		SET OutputRoot.MQRFH2 	= NULL;
+		RETURN TRUE;
+	END;
+END MODULE;

@@ -1,0 +1,44 @@
+CREATE COMPUTE MODULE FacadeTCP_GetReplyIdentifier
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		--Poner información de configuración en cabecera de mensaje.
+		SET OutputRoot.MQMD.MsgId 		= CAST(InputRoot.MQMD.MsgId AS BLOB);
+		SET OutputRoot.MQMD.CorrelId 	= CAST(InputRoot.MQMD.CorrelId AS BLOB);
+		SET OutputRoot.MQMD.ReplyToQ 	= TRIM(InputRoot.MQMD.ReplyToQ);
+	    SET OutputRoot.MQMD 	        = InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 	        = InputRoot.MQRFH2;
+				
+		/******************************************************/
+		-- Declarar referencias
+		/******************************************************/
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;
+		
+		
+		/******************************************************/
+		-- Setear información para auditoría y headers
+		/******************************************************/
+		CALL common.procedures.utils.createMsgLogs(refMQRFH2, FACADE_RS_TRACE, NM_COMPONENT);
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);
+		
+		/******************************************************/
+		-- Envío para auditoría
+		/******************************************************/
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		
+		
+		--Tomar identificador para responder a cliente
+		SET InputLocalEnvironment.TCPIP.Input.ConnectionDetails.Id = refMQRFH2.usr.response.TCP.Id;
+		SET InputLocalEnvironment.TCPIP.Input.ConnectionDetails.ReplyId = refMQRFH2.usr.response.TCP.ReplyId;
+		
+		
+		/******************************************************/
+		-- Copiar todo el mensaje
+		/******************************************************/
+		SET OutputRoot 	= InputRoot;
+		
+		RETURN TRUE;
+	END;
+END MODULE;

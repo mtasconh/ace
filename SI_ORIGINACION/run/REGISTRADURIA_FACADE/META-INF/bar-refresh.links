@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1714005620336" workspaceResource="/REGISTRADURIA_FACADE/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1580006704000" workspaceResource="/REGISTRADURIA_FACADE/co/com/registraduria/Facade.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.&#xA;&#xA;Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="co\com\registraduria\Facade.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1714073009262" workspaceResource="/REGISTRADURIA_FACADE/co/com/registraduria/Facade_Req.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Req.msgflow.&#xA;Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Req.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="co\com\registraduria\Facade_Req.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1579910344000" workspaceResource="/REGISTRADURIA_FACADE/co/com/registraduria/Facade_Resp.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Resp.msgflow.&#xA;Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Resp.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="co\com\registraduria\Facade_Resp.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1581281896000" workspaceResource="/REGISTRADURIA_FACADE/gen/co/com/registraduria/Registraduria_Facade_Req.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_FACADE\gen\co\com\registraduria\Registraduria_Facade_Req.subflow.&#xA;Successfully added file REGISTRADURIA_FACADE\gen\co\com\registraduria\Registraduria_Facade_Req.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\co\com\registraduria\Registraduria_Facade_Req.subflow"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

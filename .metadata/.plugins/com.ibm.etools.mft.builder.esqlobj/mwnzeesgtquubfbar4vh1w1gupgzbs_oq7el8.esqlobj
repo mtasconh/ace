@@ -1,0 +1,55 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		--Pasar cabeceras de mensaje.
+		SET OutputRoot.MQMD 		= InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 		= InputRoot.MQRFH2;
+		
+		--Creacion de los Arrays del objeto entorno
+		CREATE FIELD Environment.Variables;
+		CREATE FIELD Environment.Variables.Parameters;
+		
+		--Creacion de los Array del objeto mensaje
+		CREATE FIELD OutputRoot.HTTPInputHeader;
+		CREATE FIELD OutputRoot.XMLNSC.ns:Consulta;
+		
+		DECLARE parameters, parametersDate ROW;
+		DECLARE envRef REFERENCE TO Environment.Variables;
+		DECLARE inputRFHRef REFERENCE TO InputRoot.MQRFH2;
+		DECLARE envParRef REFERENCE TO envRef.Parameters;
+		DECLARE inputRef REFERENCE TO InputRoot.XMLNSC.ns:Consulta; 	
+		DECLARE outputRef REFERENCE TO OutputRoot.XMLNSC.ns:Consulta;
+		
+		--Guardar el MWAS antes de enviar el mensaje al endpoint, se restauran los demas arboles creados en fachada (MessageLog y xxxTags)
+		SET envRef.MWAS					= inputRFHRef.MWAS;
+		SET envRef.MessageLog	 		= inputRFHRef.MessageLog;
+		SET envRef.SOAP.ReplyIdentifier = inputRFHRef.SOAP.ReplyIdentifier;
+		SET envRef.usr.MQRFH2           =InputRoot.MQRFH2;
+		SET envRef.usr.MQMD             =InputRoot.MQMD;
+		
+		
+		
+		
+		--Referencio el array outputHTTPInRef del objeto Mensaje 
+		 DECLARE outputHTTPInRef REFERENCE TO OutputRoot.HTTPInputHeader;
+		  
+		--Crear el mensaje para enviar al partner
+		 SET outputRef.consrioIn.Documetnum                                  =  COALESCE(inputRef.consrioIn.Documetnum, '');
+		
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;

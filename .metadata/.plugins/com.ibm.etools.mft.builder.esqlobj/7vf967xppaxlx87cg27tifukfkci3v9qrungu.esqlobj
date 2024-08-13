@@ -1,0 +1,4 @@
+CREATE PROCEDURE getMaskDataServiceById(IN filter CHARACTER, INOUT result REFERENCE) BEGIN
+	DECLARE sql CHARACTER 'SELECT * FROM MASK_DATA WHERE FK_ID_SERVICE = ?';
+	SET result.Service.MaskData[] = PASSTHRU(sql,filter);
+END;

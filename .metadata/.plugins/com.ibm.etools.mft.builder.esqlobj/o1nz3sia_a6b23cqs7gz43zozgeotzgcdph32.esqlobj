@@ -1,0 +1,67 @@
+CREATE COMPUTE MODULE Facade_CreateMsgError
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		--Poner información de configuración en cabecera de mensaje.
+		SET OutputRoot.MQRFH2 	        = InputRoot.MQRFH2;
+		DECLARE refEnv REFERENCE TO Environment;
+		DECLARE refMQRFH2 REFERENCE TO OutputRoot.MQRFH2;
+		DECLARE refInpRoot REFERENCE TO OutputRoot;	 
+				
+		
+	    --Declarar referencia al mensaje de error
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+	       		
+		SET refMQRFH2.usr 		= Environment.Variables.usr; 
+		 		 
+		 --Enviar mensaje a Auditoria
+		  PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		 	
+		 --Setear información para auditoría y headers                         
+        CALL common.procedures.utils.createMsgLogs(refMQRFH2, FACADE_RQ_TRACE, NM_COMPONENT);	 	
+		CALL common.procedures.utils.saveMQM(refInpRoot, refEnv);  
+		   
+		
+		DECLARE Operation CHARACTER InputLocalEnvironment.Destination.RouterList.DestinationData.labelName;
+						
+		
+		--Guardar variables para manejo de errores	
+		SET Environment.Variables.usr	 = refMQRFH2.usr;				  
+		  --Creación de mensaje de salida.
+		 IF (Operation)='ConsultaAntecedentes'  THEN 	 		    	  	 	 	 
+		    SET OutputRoot.*:XMLNSC = null;    		 
+		    CREATE FIELD OutputRoot.XMLNSC.ns:ConsultaAntecedentesResp;
+		    DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.ns:ConsultaAntecedentesResp; 		   
+		    SET refOut.AntecedentesOut.StatusCode      = refInp.code;	
+		    SET refOut.AntecedentesOut.StatusDesc      = refInp.desc;
+		    SET refOut.AntecedentesOut.estado          = 'Error';	    		     	         		                       
+		 ELSEIF (Operation)='ConsultaFuncionario' THEN 
+	 	    SET OutputRoot.*:XMLNSC = null;    		 
+		    CREATE FIELD OutputRoot.XMLNSC.ns:ConsultaFuncionarioResp;
+		    DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.ns:ConsultaFuncionarioResp; 		   
+		    SET refOut.FuncionarioOut.StatusCode  = refInp.code;
+		    SET refOut.FuncionarioOut.StatusDesc  = refInp.desc;
+		    SET refOut.FuncionarioOut.Severity= 'Error';
+		ELSEIF (Operation)='LoginUsuario' THEN 
+	 	    SET OutputRoot.*:XMLNSC = null;    		 
+		    CREATE FIELD OutputRoot.XMLNSC.ns:LoginUsuarioResp;
+		    DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.ns:LoginUsuarioResp;	   
+		    SET refOut.LoginOut.StatusCode = refInp.code;
+		    SET refOut.LoginOut.StatusDesc = refInp.desc;
+		    SET refOut.LoginOut.Severity= 'Error';	
+		ELSEIF (Operation)='RegistroUsuario' THEN 
+	 	    SET OutputRoot.*:XMLNSC = null;    		 
+		    CREATE FIELD OutputRoot.XMLNSC.ns:RegistroUsuarioResp;
+		    DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.ns:RegistroUsuarioResp; 		   
+		    SET refOut.UsuarioOut.StatusCode = refInp.code;
+		    SET refOut.UsuarioOut.StatusDesc = refInp.desc;
+		    SET refOut.UsuarioOut.Severity= 'Error';	    		     			                                  
+       END IF;	
+       
+       --Tomar identificador para responder a cliente
+         SET OutputLocalEnvironment.Destination.SOAP.Reply.ReplyIdentifier = InputLocalEnvironment.Destination.SOAP.Reply.ReplyIdentifier; 
+		
+		RETURN TRUE;
+	END;
+END MODULE;

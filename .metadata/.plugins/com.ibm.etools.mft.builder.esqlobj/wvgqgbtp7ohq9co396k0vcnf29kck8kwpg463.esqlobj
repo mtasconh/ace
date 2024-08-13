@@ -1,0 +1,4 @@
+CREATE FUNCTION getDataOverlayCero(IN myLength INTEGER, IN paddChar CHARACTER, IN data CHARACTER)RETURNS CHARACTER
+BEGIN
+    RETURN OVERLAY(REPLICATE(paddChar,myLength) PLACING  data FROM (myLength - LENGTH(data)) FOR (LENGTH(data)+1));
+END;

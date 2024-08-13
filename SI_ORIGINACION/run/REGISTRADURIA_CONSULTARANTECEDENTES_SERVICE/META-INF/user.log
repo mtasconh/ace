@@ -1,0 +1,30 @@
+
+==============================================
+
+!Thu Apr 25 15:19:58 COT 2024
+
+Processing file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\co\com\registraduria\RegistraduriaConsultarAntecedentes.msgflow.
+Successfully added file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\co\com\registraduria\RegistraduriaConsultarAntecedentes.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 25 15:19:58 COT 2024
+
+Processing file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\EspecificoAntecedentes_Compute.esql.
+Successfully added file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\EspecificoAntecedentes_Compute.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 15:19:58 COT 2024
+
+Processing file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\co\com\registraduria\ConsultarAntecedentes_REQ.esql.
+Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.
+
+Successfully added file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\co\com\registraduria\ConsultarAntecedentes_REQ.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 15:19:58 COT 2024
+
+Processing file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\gen\co\com\registraduria\ConsultaAntecedentes_Registraduria.subflow.
+Successfully added file REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE\gen\co\com\registraduria\ConsultaAntecedentes_Registraduria.subflow to BAR file.

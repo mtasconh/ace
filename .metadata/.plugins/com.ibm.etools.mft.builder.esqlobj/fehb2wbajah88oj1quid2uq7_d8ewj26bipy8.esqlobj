@@ -1,0 +1,14 @@
+CREATE PROCEDURE updateConfigService(IN refService REFERENCE, INOUT result REFERENCE) BEGIN
+	DECLARE sql CHARACTER 'UPDATE SERVICES SET 
+	TYPE = ?, NAME = ?, DESCRIPTION = ?, VERSION = ?, TECHNOLOGY = ?, INTERFACE_DATA = ?, LOGS = ?, 
+	NOTIFICATION_ERROR = ?, RETRY_NUMBER = ?, COMPONENT_REVERSE = ?, TIMEOUT_BACKEND = ?, TYPE_LOG = ?, 
+	MASK_DATA = ?, MAX_EMAIL_HOUR = ? WHERE PK_ID_SERVICE = ?';
+	PASSTHRU(sql,refService.type, refService.name, refService.description, refService.version, refService.technology, refService.interfaceData, refService.logs, refService.notificationError, refService.retryNumber, refService.reverseComponent, refService.timeoutBackend, refService.typeLog, refService.maskData, refService.maxEmailHour, refService.idService);
+	
+	FOR refMask AS refService.MaskData.Item[]  DO
+		CALL updateMaskConfigService(refMask, result);		
+	END FOR;
+	
+	SET result.code = '0000';
+	SET result.desc = 'Transación Exitosa';
+END;

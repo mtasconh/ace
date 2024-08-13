@@ -1,0 +1,6 @@
+CREATE PROCEDURE createMsgLogs(INOUT refMQRFH2 reference,  IN idLog INTEGER, IN nameComponent CHARACTER)
+BEGIN
+	SET refMQRFH2.usr.log.component						= nameComponent;
+	SET refMQRFH2.usr.log.idLog 						= idLog;
+	SET refMQRFH2.usr.log.transactionDate 				= com.common.utils.functions.getDateRegisterOracle();
+END;

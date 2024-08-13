@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332650797" workspaceResource="/LIB_ApiLogs/api/logs/common/dao/ManageLogsDAO.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_ApiLogs\api\logs\common\dao\ManageLogsDAO.esql.&#xA;Successfully added file LIB_ApiLogs\api\logs\common\dao\ManageLogsDAO.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="api\logs\common\dao\ManageLogsDAO.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650817" workspaceResource="/LIB_ApiLogs/api/logs/common/modules/Modules.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_ApiLogs\api\logs\common\modules\Modules.esql.&#xA;Dependent ESQL file com/common/global/cache/ConfigurationService.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_ApiLogs\api\logs\common\modules\Modules.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="api\logs\common\modules\Modules.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650775" workspaceResource="/LIB_ApiLogs/library.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="library.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

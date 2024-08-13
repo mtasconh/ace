@@ -1,0 +1,9 @@
+CREATE PROCEDURE getServiceById(IN filter CHARACTER, INOUT result REFERENCE) BEGIN
+	IF filter = 'ALL' THEN
+		DECLARE sql CHARACTER 'SELECT * FROM SERVICES';
+		SET result.Service.Info[] = PASSTHRU(sql);	
+	ELSE
+		DECLARE sql CHARACTER 'SELECT * FROM SERVICES WHERE PK_ID_SERVICE = ?';
+		SET result.Service.Info[] = PASSTHRU(sql,filter);
+	END IF;
+END;

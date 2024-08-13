@@ -1,0 +1,32 @@
+
+==============================================
+
+!Thu Apr 25 14:23:33 COT 2024
+
+Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Resp.msgflow.
+Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Resp.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 25 14:23:33 COT 2024
+
+Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Req.msgflow.
+Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade_Req.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 25 14:23:33 COT 2024
+
+Processing file REGISTRADURIA_FACADE\co\com\registraduria\Facade.esql.
+Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.
+
+Dependent ESQL file com/common/utils/functions/Functions.esql is added to the BAR file.
+
+Successfully added file REGISTRADURIA_FACADE\co\com\registraduria\Facade.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 14:23:33 COT 2024
+
+Processing file REGISTRADURIA_FACADE\gen\co\com\registraduria\Registraduria_Facade_Req.subflow.
+Successfully added file REGISTRADURIA_FACADE\gen\co\com\registraduria\Registraduria_Facade_Req.subflow to BAR file.

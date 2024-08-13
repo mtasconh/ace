@@ -1,0 +1,10 @@
+CREATE PROCEDURE getConfigService(IN serviceName CHARACTER, INOUT result REFERENCE) BEGIN
+	DECLARE sql CHARACTER 'SELECT * FROM SERVICES WHERE PK_ID_SERVICE = ?';
+	SET result.XMLNSC.configService.config[] = PASSTHRU(sql,serviceName);
+	
+	--Validar si hay datos para enmascarar
+	IF result.XMLNSC.configService.config.MASK_DATA = MASK_DATA_TRUE THEN
+		SET sql = 'SELECT * FROM MASK_DATA WHERE FK_ID_SERVICE = ?';	
+		SET result.XMLNSC.configService.maskData.paths[] = PASSTHRU(sql,serviceName);
+	END IF;	
+END;

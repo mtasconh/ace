@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332712337" workspaceResource="/REGISTRADURIA_LOGINUSUARIOS_SERVICE/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor.&#xA;Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1580002332000" workspaceResource="/REGISTRADURIA_LOGINUSUARIOS_SERVICE/co/com/registraduria/ConsultaFuncionario_REQ.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\ConsultaFuncionario_REQ.esql.&#xA;Dependent ESQL file common/procedures/utils/Procedures.esql is added to the BAR file.&#xA;&#xA;Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\ConsultaFuncionario_REQ.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="co\com\registraduria\ConsultaFuncionario_REQ.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1580003216000" workspaceResource="/REGISTRADURIA_LOGINUSUARIOS_SERVICE/co/com/registraduria/RegistraduriaLoginUsuarios.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\RegistraduriaLoginUsuarios.msgflow.&#xA;Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\co\com\registraduria\RegistraduriaLoginUsuarios.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="co\com\registraduria\RegistraduriaLoginUsuarios.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1701131274603" workspaceResource="/REGISTRADURIA_LOGINUSUARIOS_SERVICE/gen/co/com/registraduria/LoginUsuario_Registraduria.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file REGISTRADURIA_LOGINUSUARIOS_SERVICE\gen\co\com\registraduria\LoginUsuario_Registraduria.subflow.&#xA;Successfully added file REGISTRADURIA_LOGINUSUARIOS_SERVICE\gen\co\com\registraduria\LoginUsuario_Registraduria.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\co\com\registraduria\LoginUsuario_Registraduria.subflow"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

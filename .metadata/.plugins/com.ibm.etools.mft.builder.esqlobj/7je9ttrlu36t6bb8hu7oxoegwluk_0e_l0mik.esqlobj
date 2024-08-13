@@ -1,0 +1,34 @@
+CREATE COMPUTE MODULE FacadeWS_GetInfoError
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE codeError, nameError, descError CHARACTER '';
+		
+		--Poner información de configuración en cabecera de mensaje.
+		CREATE FIELD OutputRoot.MQMD;
+		CREATE FIELD OutputRoot.MQRFH2;
+		
+		SET OutputRoot.MQRFH2.usr 		= Environment.Variables.usr;
+		
+		--Eliminar cabeceras SOAP, HTTP
+		SET OutputRoot.SOAP 			= NULL;
+		SET OutputRoot.HTTPInputHeader 	= NULL;
+		SET OutputRoot.Properties 		= NULL;
+		
+		--Copiar LocalEnvironment
+		SET OutputLocalEnvironment = InputLocalEnvironment;
+		
+		--Declarar referencia a lista de excepciones técnicas.
+		DECLARE refExceptionList REFERENCE TO InputExceptionList;
+		
+		CALL common.procedures.utils.getDescriptionExceptionList(refExceptionList, codeError, nameError, descError);
+	
+		CREATE FIELD OutputRoot.XMLNSC.excetiponReq;
+		DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.excetiponReq;
+	
+		--Creación del mensaje de error de fachada
+		SET refOut.exception.code		= codeError;
+		SET refOut.exception.desc		= nameError || ' : ' || descError;
+	
+		RETURN TRUE;
+	END;
+END MODULE;

@@ -1,0 +1,9 @@
+CREATE COMPUTE MODULE ServiceGetProperties
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.MQMD.MsgId = CAST(InputLocalEnvironment.WrittenDestination.MQ.DestinationData.msgId AS BLOB);
+		SET OutputRoot.MQMD.CorrelId = CAST(InputLocalEnvironment.WrittenDestination.MQ.DestinationData.msgId AS BLOB);
+		
+		RETURN TRUE;
+	END;
+END MODULE;

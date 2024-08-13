@@ -1,0 +1,5 @@
+CREATE PROCEDURE saveMQM(IN refInp reference,  INOUT refEnv REFERENCE)
+BEGIN
+	SET refEnv.Variables.headers.MQMD 					= refInp.MQMD;
+	SET refEnv.Variables.headers.MQRFH2					= refInp.MQRFH2;
+END;

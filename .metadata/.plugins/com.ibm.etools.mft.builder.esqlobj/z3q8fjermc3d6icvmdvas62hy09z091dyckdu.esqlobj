@@ -1,0 +1,13 @@
+CREATE FUNCTION getMyDateWhitFormat(IN myDate CHARACTER, IN myFormat CHARACTER)RETURNS CHARACTER
+BEGIN
+    DECLARE dateStr CHARACTER SUBSTRING(myDate BEFORE 'T');
+    DECLARE timeStr CHARACTER SUBSTRING(myDate AFTER 'T'); 
+    SET dateStr 		= REPLACE(dateStr, '/','-');
+    DECLARE Mytimestamp CHARACTER dateStr ||' '||timeStr;
+    DECLARE dateTime 	TIMESTAMP CAST(Mytimestamp AS TIMESTAMP);
+    -- SET dateStr 		= CAST((CAST(dateStr AS Date)) AS CHARACTER FORMAT myFormat);
+    -- SET timeStr 		= CAST((CAST(timeStr AS Time)) AS CHARACTER FORMAT hourFormat);
+    -- SET datetime 	= dateStr || timeStr;
+    -- RETURN CAST((CAST(dateTime AS Time)) AS CHARACTER FORMAT myFormat);
+    RETURN CAST(dateTime AS CHARACTER FORMAT myFormat);
+END;

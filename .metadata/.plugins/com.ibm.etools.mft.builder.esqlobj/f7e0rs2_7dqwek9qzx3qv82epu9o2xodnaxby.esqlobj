@@ -1,0 +1,7 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot.MQMD.MsgId = CAST(InputLocalEnvironment.WrittenDestination.MQ.DestinationData.msgId AS BLOB);
+		SET OutputRoot.MQMD.CorrelId = CAST(InputLocalEnvironment.WrittenDestination.MQ.DestinationData.msgId AS BLOB);
+		
+		RETURN TRUE;
+	END;

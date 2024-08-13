@@ -1,0 +1,13 @@
+2024-04-23 18:12:47.677812: BIP1990I: El servidor de integración 'SI_BACLATAM' está empezando la inicialización; versión '12.0.5.0' (64 bits) 
+2024-04-23 18:12:47.690200: BIP9905I: Inicializando gestores de recursos. 
+Listening for transport dt_socket at address: 9997
+2024-04-23 18:12:50.765276: BIP9906I: Leyendo recursos desplegados. 
+2024-04-23 18:12:51.150464: BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2024-04-23 18:12:51.158148: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7600' para conexiones 'RestAdmin http'. 
+2024-04-23 18:12:51.197756: BIP1991I: El servidor de integración ha terminado la inicialización. 
+2024-04-23 18:13:14.193527: BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-04-23 18:13:14.241653: BIP2153I: A punto de 'deleteAll' un servidor de integración. 
+2024-04-23 18:13:14.250576: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+Debugger failed to attach: handshake failed - connection prematurally closed
+Debugger failed to attach: handshake failed - connection prematurally closed
+Debugger failed to attach: handshake failed - connection prematurally closed

@@ -1,0 +1,49 @@
+CREATE COMPUTE MODULE ServiceCreateMsgError
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		--Copiar cabeceras
+		SET OutputRoot.MQMD 	= InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 	= InputRoot.MQRFH2;
+		
+		--Declare referencia Datos de respuesta
+		DECLARE refMQRFH2 REFERENCE TO InputRoot.MQRFH2;
+		
+	    --Declarar referencia al mensaje de error
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		MOVE refInp LASTCHILD;
+		
+		--Nombre de mensajes de respuesta
+		DECLARE nmElementRs CHARACTER '';
+		
+		--Nombre del objeto de respuesta
+		SET nmElementRs 	= COALESCE(refMQRFH2.usr.response.WS.nmNode, 'ApplicationFault');
+		
+		/******************************************************/
+		-- Declaración de namespaces propios de servicio
+		/******************************************************/
+		--Creación de mensaje de salida.
+		DECLARE refOut REFERENCE TO OutputRoot;
+		IF refMQRFH2.usr.response.formatType = 'XMLNSC' THEN
+			DECLARE v1 NAMESPACE refMQRFH2.usr.response.WS.namespace.*:v1;
+			CREATE FIELD OutputRoot.XMLNSC.v1:{nmElementRs};
+			MOVE refOut TO OutputRoot.XMLNSC.v1:{nmElementRs};
+		ELSE
+			CREATE FIELD OutputRoot.JSON.Data.{nmElementRs};
+			MOVE refOut TO OutputRoot.JSON.Data.{nmElementRs};			
+		END IF;
+		
+		DECLARE data ROW;
+		DECLARE refObjError REFERENCE TO data.objError;
+		CALL com.common.global.cache.getErrorHomologation(refInp.code, refObjError);
+		
+		--Creación del mensaje de error de fachada
+		SET refOut.ContextTransaction.IdTransaction 					= refMQRFH2.usr.contextTransaction.IdTransaction;
+		SET refOut.ContextTransaction.CodeTransaction 					= refObjError.code;
+		SET refOut.ContextTransaction.DescTransaction 					= refObjError.desc;
+		SET refOut.ContextTransaction.ServerStatus.CodeTransaction 		= COALESCE(refInp.ContextTransaction.CodeTransaction,refInp.code);
+		SET refOut.ContextTransaction.ServerStatus.DescTransaction 		= COALESCE(refInp.ContextTransaction.DescTransaction,refInp.desc);
+		
+		RETURN TRUE;
+	END;
+END MODULE;

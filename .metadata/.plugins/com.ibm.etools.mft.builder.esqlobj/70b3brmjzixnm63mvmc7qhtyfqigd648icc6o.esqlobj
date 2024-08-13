@@ -1,0 +1,8 @@
+CREATE PROCEDURE updateMaskConfigService(IN refService REFERENCE, INOUT result REFERENCE) BEGIN
+	DECLARE sql CHARACTER 'UPDATE MASK_DATA SET 
+	TYPE_MESSAGE = ?, PATH_DATA = ?, MASK_TYPE = ? WHERE PK_ID_MASK_DATA = ?';
+	PASSTHRU(sql,refService.typeMessage, refService.pathData, refService.maskType, refService.idMaskData);
+	
+	SET result.code = '0000';
+	SET result.desc = 'Transación Exitosa';
+END;

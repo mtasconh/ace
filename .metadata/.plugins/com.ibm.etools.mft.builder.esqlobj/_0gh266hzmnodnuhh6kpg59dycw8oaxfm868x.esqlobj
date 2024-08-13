@@ -1,0 +1,43 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		--Crear cabeceras de mensaje
+		CREATE FIELD OutputRoot.Properties;
+		CREATE FIELD OutputRoot.MQMD;
+		CREATE FIELD OutputRoot.MQRFH2;
+		
+		--Copia de mensaje recibido desde cliente
+		SET OutputRoot.XMLNSC = InputRoot.XMLNSC;
+		
+		--Crear referencia a objeto de entrada.
+		DECLARE refInp REFERENCE TO InputRoot.XMLNSC;
+		MOVE refInp LASTCHILD;
+		
+		--Guardar nombre de elementos de respuesta en caso de falla.
+		SET OutputRoot.MQRFH2.usr.response.MQ.nmNode	= REPLACE(FIELDNAME(refInp), REQUEST_NMELEMENT, RESPONSE_NMELEMENT);
+		
+		--Guardar datos en cabecera para auditoría
+		SET OutputRoot.MQRFH2.usr.contextTransaction 							= refInp.ContextTransaction;
+		SET OutputRoot.MQRFH2.usr.contextTransaction.idService					= refInp.ContextTransaction.ApiName || '.' || refInp.ContextTransaction.Operation || '.' || refInp.ContextTransaction.Interface;
+		SET OutputRoot.MQRFH2.usr.log.component									= refInp.ContextTransaction.ApiName || '.Fcd';
+		SET OutputRoot.MQRFH2.usr.log.idLog 									= FACADE_RQ_TRACE;
+		SET OutputRoot.MQRFH2.usr.log.transactionDate 							= com.common.utils.functions.getDateRegisterOracle();
+		
+		--Setear el tipo de mensaje esperado en la respuesta
+		SET OutputRoot.MQRFH2.usr.response.formatType							= 'XMLNSC';
+		
+		--Tomar identificador de cliente.
+		SET OutputRoot.MQRFH2.usr.response.MQ.replyToQ							= InputRoot.MQMD.ReplyToQ;
+		SET OutputRoot.MQRFH2.usr.response.DB.identifier						= InputRoot.MQRFH2.usr.contextTransaction.identifier;
+		
+		--Salvar datos de respuesta
+		SET Environment.Variables.usr											= OutputRoot.MQRFH2.usr;
+		
+		--Poner nombre de cola destino.
+		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName 	=  PREFIX_QUEUE || UPPER(REPLACE(OutputRoot.MQRFH2.usr.contextTransaction.idService,'_','.')) || SUFIX_QUEUE;
+		
+		--Propaga mensaje de auditoría
+		PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+		
+		--Propaga mensaje a componente específico
+		RETURN TRUE;
+	END;

@@ -1,0 +1,43 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE codeError, nameError, descError CHARACTER '';
+		
+		--Poner información de configuración en cabecera de mensaje.
+		SET OutputRoot.MQMD   = InputRoot.MQMD;
+		SET OutputRoot.MQRFH2 = InputRoot.MQRFH2;
+		
+		
+		--Declarar referencia a lista de excepciones técnicas.
+		DECLARE refExceptionList REFERENCE TO InputExceptionList;		
+		CALL common.procedures.utils.getDescriptionExceptionList(refExceptionList, codeError, nameError, descError);		
+		
+		
+		DECLARE Operation CHARACTER InputLocalEnvironment.Destination.RouterList.DestinationData.labelName;
+		
+		SET OutputRoot.MQRFH2.usr.contextTransaction.IdTransaction       = CAST(CURRENT_GMTTIMESTAMP AS CHARACTER FORMAT 'YYYYmmddHHmmss');
+		SET OutputRoot.MQRFH2.usr.contextTransaction.idService 	         = 'REGISTRADURIA' || '.' || Operation;					
+		SET OutputRoot.MQRFH2.usr.contextTransaction.StateTransaction    = 'E';
+		SET OutputRoot.MQRFH2.usr.contextTransaction.DescState 	         = COALESCE(nameError || ' : ' || descError, 'Error en la Transacción');
+		SET OutputRoot.MQRFH2.usr.log.component							 = 'FRq_Registraduria'; 
+		SET OutputRoot.MQRFH2.usr.log.idLog 							 = FACADE_RQ_TRACE;
+		SET OutputRoot.MQRFH2.usr.log.transactionDate 					 = com.common.utils.functions.getDateRegisterOracle();
+		
+		--Salvar datos de respuesta
+		SET Environment.Variables.usr									= OutputRoot.MQRFH2.usr;
+		
+		
+		--Copiar LocalEnvironment
+		SET OutputLocalEnvironment = InputLocalEnvironment;
+		
+		
+	
+		CREATE FIELD OutputRoot.XMLNSC.excetiponReq;
+		DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.excetiponReq;	
+		DECLARE long_descError INTEGER;
+		SET long_descError = LENGTH(descError); 
+		--Creación del mensaje de error de fachada
+		SET refOut.exception.code		= codeError;
+		SET refOut.exception.desc		= nameError || ' : ' || descError;
+		
+		RETURN TRUE;
+	END;

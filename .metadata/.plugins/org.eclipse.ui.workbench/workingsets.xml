@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514591_3" label="[API_Email]" name="[API_Email]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/API_Email" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514595_4" label="[API_Exception]" name="[API_Exception]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/API_ExceptionJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/API_Exception" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514598_5" label="[API_Logs]" name="[API_Logs]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/API_Logs" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514618_10" label="[LIB_Utils]" name="[LIB_Utils]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_Utils" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514622_11" label="[REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE]" name="[REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/REGISTRADURIA_CONSULTARANTECEDENTES_SERVICE" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332514627_12" label="[REGISTRADURIA_CREARUSUARIOS_SERVICE]" name="[REGISTRADURIA_CREARUSUARIOS_SERVICE]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/REGISTRADURIA_CREARUSUARIOS_SERVICE" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332711044_15" label="[LIB_ApiException]" name="[LIB_ApiException]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_ApiException" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332711047_16" label="[LIB_ApiLogs]" name="[LIB_ApiLogs]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_ApiLogs" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332711050_17" label="[LIB_GlobalCache]" name="[LIB_GlobalCache]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCache" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332711053_18" label="[LIB_Homologations]" name="[LIB_Homologations]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_GlobalCacheJava" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_Homologations" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332711057_19" label="[LIB_Registraduria_WSDL]" name="[LIB_Registraduria_WSDL]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LIB_Registraduria_WSDL" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1713910946070_32" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=API_ExceptionJava/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=GlobalCache/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LIB_GlobalCacheJava/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1713910946097_33" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1714005499043_35" label="[REGISTRADURIA_LOGINUSUARIOS_SERVICE]" name="[REGISTRADURIA_LOGINUSUARIOS_SERVICE]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GlobalCache" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/REGISTRADURIA_LOGINUSUARIOS_SERVICE" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1714005530520_37" label="[REGISTRADURIA_FACADE]" name="[REGISTRADURIA_FACADE]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GlobalCache" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/REGISTRADURIA_FACADE" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693316573084_0" label="Window Working Set" name="Aggregate for window 1693316573084"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693331657644_1" label="Window Working Set" name="Aggregate for window 1693331657644"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693332333428_2" label="Window Working Set" name="Aggregate for window 1693332333428"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693510031385_16" label="Window Working Set" name="Aggregate for window 1693510031385"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693526391819_17" label="Window Working Set" name="Aggregate for window 1693526391819"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696806669780_18" label="Window Working Set" name="Aggregate for window 1696806669780"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698334517702_19" label="Window Working Set" name="Aggregate for window 1698334517702"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698334866520_20" label="Window Working Set" name="Aggregate for window 1698334866520"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698335836767_21" label="Window Working Set" name="Aggregate for window 1698335836767"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698338691335_22" label="Window Working Set" name="Aggregate for window 1698338691335"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698340479316_23" label="Window Working Set" name="Aggregate for window 1698340479316"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700180956354_24" label="Window Working Set" name="Aggregate for window 1700180956354"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700181095612_25" label="Window Working Set" name="Aggregate for window 1700181095612"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700184536721_26" label="Window Working Set" name="Aggregate for window 1700184536721"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700186481549_27" label="Window Working Set" name="Aggregate for window 1700186481549"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700433520386_28" label="Window Working Set" name="Aggregate for window 1700433520386"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700433564433_29" label="Window Working Set" name="Aggregate for window 1700433564433"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701131113961_30" label="Window Working Set" name="Aggregate for window 1701131113961"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701894052086_31" label="Window Working Set" name="Aggregate for window 1701894052085"/>
+<mruList name="[LIB_GlobalCache]"/>
+</workingSetManager>

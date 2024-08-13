@@ -1,0 +1,18 @@
+
+==============================================
+
+!Thu Apr 25 09:16:22 COT 2024
+
+Processing file LIB_ApiException\api\exception\common\dao\ManageExceptionDAO.esql.
+Successfully added file LIB_ApiException\api\exception\common\dao\ManageExceptionDAO.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:16:22 COT 2024
+
+Processing file LIB_ApiException\api\exception\common\modules\Modules.esql.
+Dependent ESQL file api/exception/common/dao/ManageExceptionDAO.esql is added to the BAR file.
+
+Dependent ESQL file com/common/global/cache/functions/UtilsFunctions.esql is added to the BAR file.
+
+Successfully added file LIB_ApiException\api\exception\common\modules\Modules.esql to BAR file.

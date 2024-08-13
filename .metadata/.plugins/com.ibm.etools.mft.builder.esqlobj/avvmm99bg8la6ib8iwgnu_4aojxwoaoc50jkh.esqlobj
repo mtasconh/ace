@@ -1,0 +1,24 @@
+CREATE PROCEDURE maskMessage(IN refConfig REFERENCE, INOUT refInp REFERENCE)
+BEGIN
+	--Recorrer listado de paths a enmascarar
+	DECLARE valueMsg CHARACTER '';
+	
+	FOR refPath AS refConfig.configService.maskData.paths[] DO
+		IF refPath.ID_LOG = refConfig.log.idLog THEN
+			IF FIELDNAME(refInp) = 'JSON' THEN
+				MOVE refInp LASTCHILD;	
+			END IF;
+			IF refPath.TYPE_MESSAGE = 'XML' THEN
+				DECLARE pathMod CHARACTER TRIM(REPLACE(refPath.PATH_DATA,'/','.*:'));
+				SET valueMsg =  EVAL('COALESCE(refInp' || pathMod || ', '''')');
+				CALL replaceMaskMessageINXML(refInp,pathMod,refPath.MASK_TYPE,valueMsg);
+			ELSE
+				DECLARE msgInput CHARACTER CAST(refInp.BLOB AS CHARACTER CCSID 819);
+				SET valueMsg = SUBSTRING(msgInput FROM (CAST(SUBSTRING(refPath.PATH_DATA BEFORE '|') AS INTEGER)) FOR (CAST(SUBSTRING(refPath.PATH_DATA AFTER '|') AS INTEGER)));
+				SET valueMsg = com.common.utils.functions.getMaskByMethod(refPath.MASK_TYPE,valueMsg);
+				SET msgInput = OVERLAY (msgInput PLACING valueMsg FROM (CAST(SUBSTRING(refPath.PATH_DATA BEFORE '|') AS INTEGER)) FOR (CAST(SUBSTRING(refPath.PATH_DATA AFTER '|') AS INTEGER)));
+				SET refInp.BLOB = CAST(msgInput AS BLOB CCSID 819);
+			END IF;
+		END IF;
+	END FOR; 
+END;

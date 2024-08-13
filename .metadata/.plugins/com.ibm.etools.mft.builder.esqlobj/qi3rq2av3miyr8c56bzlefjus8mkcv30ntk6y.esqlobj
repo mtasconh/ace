@@ -1,0 +1,4 @@
+CREATE PROCEDURE parseMessage(in refInp REFERENCE, IN encoding INTEGER, IN ccsid INTEGER, IN dataOut REFERENCE)BEGIN
+	DECLARE messageTreeBlob BLOB ASBITSTREAM(refInp, encoding, ccsid,EMPTY_STRING,EMPTY_STRING,EMPTY_STRING,FolderBitStream);
+	SET dataOut.message = CAST(messageTreeBlob AS CHARACTER CCSID ccsid Encoding encoding);
+END;

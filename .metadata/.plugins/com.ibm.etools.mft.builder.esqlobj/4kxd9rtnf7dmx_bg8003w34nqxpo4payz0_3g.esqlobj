@@ -1,0 +1,4 @@
+CREATE FUNCTION getGlobalCache (IN key CHARACTER, IN mapName CHARACTER)
+RETURNS CHARACTER
+LANGUAGE JAVA
+EXTERNAL NAME "co.com.global.cache.GlobalCache.get";

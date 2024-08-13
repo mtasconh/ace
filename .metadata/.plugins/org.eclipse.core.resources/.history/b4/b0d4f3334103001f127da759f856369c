@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="MQEndpoint" policyName="SI_ORIGINACION_TO_MQ" policyTemplate="MQEndpoint">
+    <connection>CLIENT</connection>
+    <destinationQueueManagerName>MQPRB</destinationQueueManagerName>
+    <queueManagerHostname>192.168.1.16</queueManagerHostname>
+    <listenerPortNumber>1414</listenerPortNumber>
+    <channelName>CHANNEL.MQPRB</channelName>
+    <CCDTUrl>IDENTITYMQPRB</CCDTUrl>
+    <securityIdentity></securityIdentity>
+    <useSSL>false</useSSL>
+    <SSLPeerName></SSLPeerName>
+    <SSLCipherSpec></SSLCipherSpec>
+    <SSLCertificateLabel></SSLCertificateLabel>
+    <MQApplName></MQApplName>
+    <reconnectOption>default</reconnectOption>
+  </policy>
+</policies>

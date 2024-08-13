@@ -1,0 +1,27 @@
+CREATE PROCEDURE getErrorHomologation(IN techCode CHARACTER, INOUT resultValue REFERENCE)
+BEGIN
+	DEClARE destValue CHARACTER EMPTY_STRING;
+	DECLARE homologation ROW;
+	DECLARE refHomologation REFERENCE TO homologation.data;
+	DEClARE keyName CHARACTER techCode;
+	
+	--SET destValue = getGlobalCache(keyName, ERROR_CATALOG_MAP);
+	SET destValue = NULL;
+	
+	IF (destValue IS NULL) THEN
+		--Consulta del valor de la homologacions
+		CALL com.common.global.cache.dao.getHomologationError(techCode, refHomologation);
+		IF EXISTS(refHomologation.values[]) THEN
+			DECLARE result CHARACTER putGlobalCache(keyName, refHomologation.values.BUSINESS_CODE || '|' || refHomologation.values.DESCRIPTION_ERROR , ERROR_CATALOG_MAP);
+			
+			SET resultValue.code = CAST (refHomologation.values.BUSINESS_CODE AS CHARACTER);
+			SET resultValue.desc = CAST (refHomologation.values.DESCRIPTION_ERROR AS CHARACTER);
+		ELSE
+			SET resultValue.code 	= DEFAULT_CODE;
+			SET resultValue.desc 	= DEFAULT_DESCRIPTION;
+		END IF;
+	ELSE
+		SET resultValue.code 	= SUBSTRING(destValue BEFORE '|');
+		SET resultValue.desc 	= SUBSTRING(destValue AFTER '|');
+	END IF;	
+END;

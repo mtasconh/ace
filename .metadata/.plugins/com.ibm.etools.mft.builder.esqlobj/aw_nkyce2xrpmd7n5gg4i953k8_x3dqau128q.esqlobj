@@ -1,0 +1,22 @@
+CREATE FUNCTION pad(IN source CHARACTER, IN lenght INTEGER, IN paddingChar CHARACTER, IN side CHARACTER) RETURNS CHARACTER 
+BEGIN
+
+	DECLARE result			CHARACTER source;
+	DECLARE sourceLenght 	INTEGER LENGTH(source);
+
+	IF side = 'LEFT' THEN
+		IF sourceLenght < lenght THEN
+			SET result = REPLICATE(paddingChar,(lenght-sourceLenght)) || result;
+		ELSEIF sourceLenght > lenght THEN
+			SET result = RIGHT(result,lenght);
+		END IF;
+	ELSEIF side = 'RIGHT' THEN
+		IF sourceLenght < lenght THEN
+			SET result = result || REPLICATE(paddingChar,(lenght-sourceLenght));
+		ELSEIF sourceLenght > lenght THEN
+			SET result = LEFT(result,lenght);
+		END IF;
+	END IF;	 
+		
+	RETURN result;    
+END;
