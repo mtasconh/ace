@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332515450" workspaceResource="/API_Email/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1559938520000" workspaceResource="/API_Email/com/ibus/apiemail/services/Send.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file API_Email\com\ibus\apiemail\services\Send.msgflow.&#xA;Successfully added file API_Email\com\ibus\apiemail\services\Send.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\ibus\apiemail\services\Send.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1579880778000" workspaceResource="/API_Email/com/ibus/apiemail/services/Send_Mapping.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file API_Email\com\ibus\apiemail\services\Send_Mapping.esql.&#xA;Successfully added file API_Email\com\ibus\apiemail\services\Send_Mapping.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\ibus\apiemail\services\Send_Mapping.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

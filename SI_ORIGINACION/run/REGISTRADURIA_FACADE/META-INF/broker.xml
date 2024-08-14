@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="REGISTRADURIA_FACADEproject.generated.bar" deployTimestamp="2024-04-25 19:23:33">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="co.com.registraduria.Facade_Resp" deployBarfile="REGISTRADURIA_FACADEproject.generated.bar" deployTimestamp="2024-04-25 19:23:33">
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpGetError.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpGetError.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpGetError.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpResponse.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpResponse.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#CmpResponse.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.queueName" override="MQINP.EXCEPTION.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.EXCEPTION.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.queueName" override="MQINP.REGISTRADURIA.RESP">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQINP.REGISTRADURIA.RESP.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#MQOUT.LOGS.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#NM_COMPONENT_RESP" override="FRs_Registraduria">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#SOAP Reply1.allowMTOM">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#SOAP Reply1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#SOAP Reply1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Resp#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="co.com.registraduria.Facade_Req" deployBarfile="REGISTRADURIA_FACADEproject.generated.bar" deployTimestamp="2024-04-25 19:23:33">
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpErrorResp.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpErrorResp.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpErrorResp.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpGetError.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpGetError.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpGetError.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpReceiveMsg.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpReceiveMsg.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#CmpReceiveMsg.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.queueName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.replyToQ" override="MQINP.REGISTRADURIA.RESP">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.GENERIC.SRV.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.LOGS.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueName" override="MQINP.EXCEPTION.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.EXCEPTION.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#MQOUT.MQ.LOGS.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#NM_COMPONENT" override="FRq_Registraduria">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#PREFIX_QUEUE" override="MQINP.">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.allowQueryWSDL" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.backoutDestination">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.backoutThreshold">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.connectionFactoryName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.initialContextFactory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.locationJndiBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.maxClientWaitTime" override="15">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.messageCorrelationIDSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.messageDeliveryModeSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.messageIDSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.messagePrioritySelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.messageRedeliveredSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.policySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.policySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.propertySelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.sendProcessingFaultsToFailure">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.targetService">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.timeStampSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.urlSelector" override="/registraduria/registraduria">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.validateFailureAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Reply.allowMTOM">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Reply.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SOAP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#SUFIX_QUEUE" override=".REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#UDP_ApiName" override="REGISTRADURIA">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#UDP_Interface">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#expiry" override="100">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.Facade_Req#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="gen.co.com.registraduria.Registraduria_Facade_Req" type="subflow" deployBarfile="REGISTRADURIA_FACADEproject.generated.bar" deployTimestamp="2024-04-25 19:23:33">
+  </CompiledMessageFlow>
+</Broker>

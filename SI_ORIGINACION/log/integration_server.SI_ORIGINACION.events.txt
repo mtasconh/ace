@@ -1,0 +1,6 @@
+2024-08-11 13:32:48.094100Z: [Thread 10708] (Msg 1/1) BIP1990I: El servidor de integración 'SI_ORIGINACION' está empezando la inicialización; versión '12.0.5.0' (64 bits) 
+2024-08-11 13:32:48.315972Z: [Thread 10708] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2024-08-11 13:33:53.558424Z: [Thread 10708] (Msg 1/1) BIP2116E: Error interno de IBM App Connect Enterprise: información de diagnóstico 'Fatal Error; exception thrown before initialisation completed', 'MQ default CCSID', '14132', '10708', '43', '42'. 
+2024-08-11 13:33:53.559440Z: [Thread 10708] (Msg 1/2) BIP2203E: Un servidor de integración ha encontrado un problema mientras se iniciaba. 
+2024-08-11 13:33:53.559628Z: [Thread 10708] (Msg 2/2) BIP2677E: No se ha podido realizar una conexión de cliente con el gestor de colas 'MQPRB' utilizando el nombre de host '192.168.1.16' en el puerto '1414': MQCC=2; MQRC=2538. 
+2024-08-11 13:33:53.560068Z: [Thread 10708] (Msg 1/1) BIP1992I: El servidor de integración 'SI_ORIGINACION' se ha parado. 

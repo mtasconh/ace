@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332650714" workspaceResource="/LIB_ApiException/api/exception/common/dao/ManageExceptionDAO.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_ApiException\api\exception\common\dao\ManageExceptionDAO.esql.&#xA;Successfully added file LIB_ApiException\api\exception\common\dao\ManageExceptionDAO.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="api\exception\common\dao\ManageExceptionDAO.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650736" workspaceResource="/LIB_ApiException/api/exception/common/modules/Modules.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_ApiException\api\exception\common\modules\Modules.esql.&#xA;Dependent ESQL file api/exception/common/dao/ManageExceptionDAO.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/functions/UtilsFunctions.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_ApiException\api\exception\common\modules\Modules.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="api\exception\common\modules\Modules.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650692" workspaceResource="/LIB_ApiException/library.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="library.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

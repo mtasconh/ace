@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1693332224689" workspaceResource="/LIB_GlobalCache/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\.classpath.&#xA;Successfully added file LIB_GlobalCache\.classpath to BAR file.&#xA;Elapsed time: 0,059 second(s).&#xA;" severity="0"/>
+      <barEntry name="LIB_GlobalCache.jar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1551800870000" workspaceResource="/LIB_GlobalCache/GlobalCache.jar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\GlobalCache.jar.&#xA;Successfully added file LIB_GlobalCache\GlobalCache.jar to BAR file.&#xA;Elapsed time: 0,001 second(s).&#xA;" severity="0"/>
+      <barEntry name="GlobalCache.jar"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650876" workspaceResource="/LIB_GlobalCache/com/common/global/cache/ConfigurationService.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\com\common\global\cache\ConfigurationService.esql.&#xA;Dependent ESQL file com/common/utils/procedures/Procedures.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/HomologationCache.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/FunctionsCacheJava.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/dao/CacheFunctionDAO.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_GlobalCache\com\common\global\cache\ConfigurationService.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\global\cache\ConfigurationService.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650899" workspaceResource="/LIB_GlobalCache/com/common/global/cache/FunctionsCacheJava.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\com\common\global\cache\FunctionsCacheJava.esql.&#xA;Successfully added file LIB_GlobalCache\com\common\global\cache\FunctionsCacheJava.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\global\cache\FunctionsCacheJava.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650920" workspaceResource="/LIB_GlobalCache/com/common/global/cache/HomologationCache.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\com\common\global\cache\HomologationCache.esql.&#xA;Dependent ESQL file com/common/global/cache/FunctionsCacheJava.esql is added to the BAR file.&#xA;&#xA;Dependent ESQL file com/common/global/cache/dao/CacheFunctionDAO.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_GlobalCache\com\common\global\cache\HomologationCache.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\global\cache\HomologationCache.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650939" workspaceResource="/LIB_GlobalCache/com/common/global/cache/dao/CacheFunctionDAO.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\com\common\global\cache\dao\CacheFunctionDAO.esql.&#xA;Successfully added file LIB_GlobalCache\com\common\global\cache\dao\CacheFunctionDAO.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\global\cache\dao\CacheFunctionDAO.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1693332650960" workspaceResource="/LIB_GlobalCache/com/common/global/cache/functions/UtilsFunctions.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file LIB_GlobalCache\com\common\global\cache\functions\UtilsFunctions.esql.&#xA;Dependent ESQL file com/common/global/cache/ConfigurationService.esql is added to the BAR file.&#xA;&#xA;Successfully added file LIB_GlobalCache\com\common\global\cache\functions\UtilsFunctions.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="com\common\global\cache\functions\UtilsFunctions.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1714006350842" workspaceResource="/LIB_GlobalCache/library.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="" severity="0"/>
+      <barEntry name="library.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1714007313441" workspaceResource="/GlobalCache/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file GlobalCache\.classpath.&#xA;Successfully added file GlobalCache\.classpath to BAR file.&#xA;Elapsed time: 0,004 second(s).&#xA;" severity="0"/>
+      <barEntry name="GlobalCache.jar"/>
+    </deployable>
+    <deployable workspaceResource="/GlobalCache/GlobalCache.jar">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="JAR file GlobalCache.jar can not added to the BAR file because another resource with the&#xA;same name has already been added. Ensure that the included Java project names&#xA;do not collide with JAR file names. Rename the JAR file causing name collision&#xA;or remove it from the workspace." severity="4"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

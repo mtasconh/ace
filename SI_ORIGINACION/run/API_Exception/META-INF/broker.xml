@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="API_Exceptionproject.generated.bar" deployTimestamp="2024-04-25 18:56:33">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="com.ibus.apiexception.services.RegisterException" deployBarfile="API_Exceptionproject.generated.bar" deployTimestamp="2024-04-25 18:56:33">
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#CmpValidationNotification.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#CmpValidationNotification.dataSource" override="IIBDATA">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#CmpValidationNotification.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.queueName" override="MQINP.EMAIL.SEND.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EMAIL.SEND.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.queueName" override="MQINP.EXCEPTION.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#MQINP.EXCEPTION.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#TraceLog.filePath" override="APILog_Register.log">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiexception.services.RegisterException#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

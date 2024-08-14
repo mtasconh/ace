@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="API_Emailproject.generated.bar" deployTimestamp="2024-04-25 18:04:32">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="com.ibus.apiemail.services.Send" deployBarfile="API_Emailproject.generated.bar" deployTimestamp="2024-04-25 18:04:32">
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#EmailOutput.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#EmailOutput.smtpServer" override="10.1.0.26:25">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#EmailOutput.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.queueName" override="MQINP.EMAIL.SEND.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#MQINP.MQINP.EMAIL.SEND.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#Mapping.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#Mapping.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#Mapping.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="com.ibus.apiemail.services.Send#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

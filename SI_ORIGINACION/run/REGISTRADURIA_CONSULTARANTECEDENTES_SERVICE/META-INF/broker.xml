@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar" deployTimestamp="2024-04-25 20:20:05">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="co.com.registraduria.RegistraduriaConsultarAntecedentes" deployBarfile="REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar" deployTimestamp="2024-04-25 20:20:05">
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpErrorResp.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpErrorResp.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpErrorResp.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpGetError.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpGetError.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#CmpGetError.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Request.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Request.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Request.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Response.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Response.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#Consulta_Response.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQ Reply1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.queueName" override="MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQINP.REGISTRADURIA.CONSULTAANTECEDENTES.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.queueName" override="MQINP.EXCEPTION.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.EXCEPTION.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.queueName" override="MQINP.LOGS.REGISTER.REQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#MQOUT.MQ.LOGS.REGISTER.REQ1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#NM_COMPONENT_QUERY_PRq" override="PRq_Registraduria_ConsultarAntecedentes_Service">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#NM_COMPONENT_QUERY_PRs" override="PRs_Registraduria_ConsultarAntecedentes_Service">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="co.com.registraduria.RegistraduriaConsultarAntecedentes#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria" type="subflow" deployBarfile="REGISTRADURIA_CONSULTARANTECEDENTES_SERVICEproject.generated.bar" deployTimestamp="2024-04-25 20:20:05">
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.allowMTOM">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.allowedSSLCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.connectionFactoryName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.deliveryMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.initialContextFactory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.jmsDestination">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.jmsReplyToDestination">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.locationJndiBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.messageExpiration">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.messagePriority">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.messageType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.policySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.policySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.requestTimeout" override="10">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.requestTimeoutJMS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.sslProtocol" override="TLS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.targetService">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.validateFailureAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.co.com.registraduria.ConsultaAntecedentes_Registraduria#Request.webServiceURL" override="http://localhost:8089/paymentServices/registraduria">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

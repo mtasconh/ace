@@ -1,0 +1,73 @@
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\.classpath.
+Successfully added file LIB_GlobalCache\.classpath to BAR file.
+Elapsed time: 0,059 second(s).
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\GlobalCache.jar.
+Successfully added file LIB_GlobalCache\GlobalCache.jar to BAR file.
+Elapsed time: 0,001 second(s).
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\com\common\global\cache\ConfigurationService.esql.
+Dependent ESQL file com/common/utils/procedures/Procedures.esql is added to the BAR file.
+
+Dependent ESQL file com/common/global/cache/HomologationCache.esql is added to the BAR file.
+
+Dependent ESQL file com/common/global/cache/FunctionsCacheJava.esql is added to the BAR file.
+
+Dependent ESQL file com/common/global/cache/dao/CacheFunctionDAO.esql is added to the BAR file.
+
+Successfully added file LIB_GlobalCache\com\common\global\cache\ConfigurationService.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\com\common\global\cache\FunctionsCacheJava.esql.
+Successfully added file LIB_GlobalCache\com\common\global\cache\FunctionsCacheJava.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\com\common\global\cache\HomologationCache.esql.
+Dependent ESQL file com/common/global/cache/FunctionsCacheJava.esql is added to the BAR file.
+
+Dependent ESQL file com/common/global/cache/dao/CacheFunctionDAO.esql is added to the BAR file.
+
+Successfully added file LIB_GlobalCache\com\common\global\cache\HomologationCache.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\com\common\global\cache\dao\CacheFunctionDAO.esql.
+Successfully added file LIB_GlobalCache\com\common\global\cache\dao\CacheFunctionDAO.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file LIB_GlobalCache\com\common\global\cache\functions\UtilsFunctions.esql.
+Dependent ESQL file com/common/global/cache/ConfigurationService.esql is added to the BAR file.
+
+Successfully added file LIB_GlobalCache\com\common\global\cache\functions\UtilsFunctions.esql to BAR file.
+
+==============================================
+
+!Thu Apr 25 09:17:09 COT 2024
+
+Processing file GlobalCache\.classpath.
+Successfully added file GlobalCache\.classpath to BAR file.
+Elapsed time: 0,004 second(s).
